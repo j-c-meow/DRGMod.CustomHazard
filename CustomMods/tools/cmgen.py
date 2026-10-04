@@ -177,6 +177,14 @@ def main():
     args = ap.parse_args()
 
     cfg = json.load(open(args.config, encoding='utf-8'))
+    # unified format: weapon section nested inside difficulty JSON as WeaponMods;
+    # standalone .cw.json (top-level Overrides/CustomOverclocks) kept as authoring fallback
+    if isinstance(cfg.get('WeaponMods'), dict):
+        wm = cfg['WeaponMods']
+        cfg = {'FormatVersion': cfg.get('FormatVersion', 1),
+               'Name': cfg.get('Name') or 'CM',
+               'Overrides': wm.get('Overrides') or {},
+               'CustomOverclocks': wm.get('CustomOverclocks') or []}
     outdir = args.out or os.path.join(os.path.dirname(os.path.abspath(args.config)), 'cmgen_out')
     result = {'config': cfg.get('Name'), 'patches': [], 'errors': [], 'pak': None}
 

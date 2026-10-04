@@ -1,9 +1,32 @@
-# `.cw.json` 规格文档（CustomMods Weapon JSON · FormatVersion 1）
+# 武器节规格（CustomMods Weapon JSON · FormatVersion 1）
 
-> 状态：v1 草案（2026-10-04，基于 M0 实测资产结构定稿）
+> 状态：v1 草案（2026-10-04，基于 M0 实测资产结构定稿）；**格式归属定稿（用户拍板）：武器节并入难度 JSON 本体**
 > 原则：**默认原版**——空配置/未启用 = 游戏零改动。只有玩家主动启用配置才生效。
 > **玩家写配置看 [写法教程.md](写法教程.md)**（全字段中文注释 + 目录速查用法 + 坑列表，对标 Koncin 的难度 JSON 注释版）；本文是面向工具/开发者的规格。
-> **查资产现值看 `data/weapon_overclock_catalog.md`**（全武器超频目录：资产名/品质/元素原值，自动生成，`tools\..\..\tools\gen_catalog.py` 可重跑）。
+> **查资产现值看 `data/weapon_overclock_catalog.md`**（全武器超频目录：资产名/品质/元素原值，自动生成，可重跑）。
+
+## 格式归属（定稿 2026-10-04）
+
+**不存在独立的玩家级武器配置文件**。武器节是难度 JSON（`.cd.json` 格式）的一个顶层字段：
+
+```jsonc
+{
+  "Name": "Hazard hard level11 ...",      // ← 难度原有字段
+  "MaxActiveCritters": 200,                // ← 难度原有字段
+  "EnemyDescriptors": { ... },             // ← 生物节（CH 原有）
+  "EnemyPool": { ... },                    // ← 生物池（CH 原有）
+  "WeaponMods": {                          // ← 【新增】武器节，本文档的全部内容
+    "Overrides": { ... },                  //    改现有超频/升级数值
+    "CustomOverclocks": [ ... ]            //    创建全新超频（v1 槽位重铸）
+  },
+  "SeasonalEvents": [ ... ],               // ← 难度原有字段
+  "EscortMule": { ... }                    // ← 难度原有字段
+}
+```
+
+- 玩家体验：**一份代码三合一**（难度/生物/武器），CH 终端列表不变，选一份全部生效
+- `WeaponMods` 缺省或为空 = 该配置不碰武器（纯难度配置完全向后兼容）
+- 独立 `.cw.json` 文件 = **作者辅助/过渡格式**（cmgen 兼容读取，顶层即 WeaponMods 内容）；M3 目标是 CH 的配置加载器在游戏内直接解析 `WeaponMods` 节
 
 ## 设计对齐
 

@@ -1,0 +1,41 @@
+{
+  "Name": "危5·稳射改装版",
+  "Description": "官方危5难度 + 武器微调：突击步枪均衡超频射速+6。难度代码现在还包括武器模组调整代码的完整示例。",
+  "MaxActiveCritters": 40,
+  "MaxActiveSwarmers": 60,
+  "MaxActiveEnemies": 60,
+  "ResupplyCost": 80,
+  "StartingNitra": 0,
+  "EnemyDamageModifier": [2.8, 3, 3.2, 3.4],
+  "EnemyCountModifier": [0.85, 0.85, 1.25, 1.5],
+  "HazardBonus": 1.33,
+  "FriendlyFireModifier": 0.7,
+  "SpeedModifier": 1.15,
+  "AttackCooldownModifier": 1.5,
+  "ProjectileSpeedModifier": 1.7,
+  "HealthRegenerationMax": 0.1,
+  "ReviveHealthRatio": 0.1,
+  "EliteCooldown": 0,
+  "EnemyDescriptors": {},
+  "EnemyPool": { "clear": false, "add": [], "remove": [] },
+  "CommonEnemies": { "clear": false, "add": [], "remove": [] },
+  "SpecialEnemies": { "clear": false, "add": [], "remove": [] },
+  "DisruptiveEnemies": { "clear": false, "add": [], "remove": [] },
+  "StationaryEnemies": { "clear": false, "add": [], "remove": [] },
+  "SeasonalEvents": ["SE_ProspectorDrone", "SE_ProspectorDataDeposit", "SE_RivalBomb"],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.5,
+    "BigHitDamageReductionThreshold": 6,
+    "NeutralDamageModifier": 0.1
+  },
+  "WeaponMods": {
+    "Overrides": {
+      "OC_Bonus_RoF+3_AssaultRifle": {
+        "Weapon": "AssaultRifle",
+        "Set": { "Amount": 6.0 }
+      }
+    },
+    "CustomOverclocks": []
+  }
+}
