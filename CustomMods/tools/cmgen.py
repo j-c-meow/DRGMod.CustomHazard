@@ -177,14 +177,25 @@ def main():
     args = ap.parse_args()
 
     cfg = json.load(open(args.config, encoding='utf-8'))
-    # unified format: weapon section nested inside difficulty JSON as WeaponMods;
-    # standalone .cw.json (top-level Overrides/CustomOverclocks) kept as authoring fallback
-    if isinstance(cfg.get('WeaponMods'), dict):
+    # unified format: difficulty JSON with top-level WeaponMods section.
+    # WeaponMods may be: {"Overrides": {...}, "CustomOverclocks": [...]} (authoring)
+    # or a runtime ARRAY: [{"Asset": name, "Weapon": w, "Amount": v}, ...] (CH in-game format)
+    if isinstance(cfg.get('WeaponMods'), (dict, list)):
         wm = cfg['WeaponMods']
-        cfg = {'FormatVersion': cfg.get('FormatVersion', 1),
-               'Name': cfg.get('Name') or 'CM',
-               'Overrides': wm.get('Overrides') or {},
-               'CustomOverclocks': wm.get('CustomOverclocks') or []}
+        if isinstance(wm, list):
+            overrides = {}
+            for entry in wm:
+                a = entry.get('Asset')
+                if a:
+                    overrides[a] = {'Weapon': entry.get('Weapon', ''),
+                                    'Set': {k: v for k, v in entry.items() if k in ('Amount', 'UpgradeType')}}
+            cfg = {'FormatVersion': 1, 'Name': cfg.get('Name') or 'CM',
+                   'Overrides': overrides, 'CustomOverclocks': []}
+        else:
+            cfg = {'FormatVersion': cfg.get('FormatVersion', 1),
+                   'Name': cfg.get('Name') or 'CM',
+                   'Overrides': wm.get('Overrides') or {},
+                   'CustomOverclocks': wm.get('CustomOverclocks') or []}
     outdir = args.out or os.path.join(os.path.dirname(os.path.abspath(args.config)), 'cmgen_out')
     result = {'config': cfg.get('Name'), 'patches': [], 'errors': [], 'pak': None}
 
