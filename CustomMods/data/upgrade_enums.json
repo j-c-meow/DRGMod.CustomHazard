@@ -1,0 +1,895 @@
+{
+ "generated": "2026-10-04",
+ "source": "fork Source/FSD/Public headers",
+ "enums": {
+  "EAmmoDrivenWeapnUpgradeType": [
+   "MaxAmmo",
+   "ClipSize",
+   "RateOfFire",
+   "ReloadSpeed",
+   "RecoilMultiplier",
+   "RecoilMultiplierV",
+   "RecoilMultiplierH",
+   "BurstCount",
+   "BurstRateOfFire",
+   "ActivateBurstFireMode",
+   "ActivateAutomaticFireMode",
+   "HeatUpRateModifier",
+   "AutoReloadDuration",
+   "RecoilMass",
+   "OverheatOnReload",
+   "ShotCost",
+   "CustomEvent1",
+   "HeatReductionOnReload"
+  ],
+  "EArmorUpgradeType": [
+   "RegenDelay",
+   "RegenRate",
+   "ReviveInvulnerability"
+  ],
+  "EAssaultRifleUpgrade": [
+   "KillResetsSpread",
+   "KillTriggerStatusEffect"
+  ],
+  "EAutoCannonUpgrades": [
+   "FireTimeIncreaseScaleMultiplier",
+   "DamageBonusAtFullROF",
+   "StatusEffectAtFullROF",
+   "StartingFireRate",
+   "MaxFireRate"
+  ],
+  "EAutoShotgunUpgrades": [
+   "TurretSpecialAttackEnabled",
+   "RateOfFireAndAutoMatic",
+   "CQCBuffOnKill"
+  ],
+  "EBeltDrivenWeaponUpgrade": [
+   "BarrelSpinupTime",
+   "BarrelSpinDownTime"
+  ],
+  "EBoltActionRifleUpgrades": [
+   "FocusSpeed",
+   "AimedShotStagger",
+   "AimedWeakShotKillFearFactor",
+   "FocusDamageBonus",
+   "UnZoomedAccuracySpread",
+   "FocusedWeakspotHitStatusEffect",
+   "NoGravityOnFocus",
+   "KillReloadTimeBoost",
+   "AimedShotWeakpointDamageBonusMultiplier",
+   "AimedShotAmmoCost"
+  ],
+  "EBoscoUpgrades": [
+   "MiningSpeedUpgrade",
+   "ExtraRevive",
+   "ActiveLightRadius",
+   "Missile",
+   "CryoGrenade",
+   "SACooldownReduction",
+   "ExtraAbillityCharge"
+  ],
+  "EBurstWeaponUpgrades": [
+   "FullBurstHitBonusDamage",
+   "FullBurstStaggerDuraion"
+  ],
+  "ECapsuleHitscanUpgradeType": [
+   "ShotWidth",
+   "PenetrateEnemies"
+  ],
+  "EChargedProjectileUpgrades": [
+   "ExplodesOnDamage",
+   "AoEDamageInFlight",
+   "PersistentExplosion"
+  ],
+  "EChargedWeaponUpgrades": [
+   "ShotCostAtFullCharge",
+   "ChargeSpeed",
+   "CoolingRate",
+   "HeatPerSecondCharging",
+   "HeatPerSecondCharged",
+   "HeatPerChargedShot",
+   "HeatPerNormalShot"
+  ],
+  "ECoilgunUpgrades": [
+   "EResistanceWhileCharging",
+   "ETransferAilment",
+   "EFlamekills",
+   "EOvercharge",
+   "EUnderCharge",
+   "EWeaponBlast",
+   "EShotwaveRange",
+   "EImpactFearFactor",
+   "EDamageOnShotWave",
+   "EImpactFearRadius",
+   "EEffectTrailDuration",
+   "EEffectTrailBonusRadius",
+   "EBrokenShieldBonus",
+   "EPostChargeBurst",
+   "EOwnerShieldCapacity",
+   "EBlockShieldWhileCharing",
+   "EWeaknessWhileCharging",
+   "EPierceDepthDamage",
+   "EBurnGround",
+   "EElectricTrail",
+   "EFireTrail",
+   "EPenetrationDepth",
+   "EPrimaryBonusShotWidth",
+   "EShieldDelay"
+  ],
+  "ECrossbowUpgrades": [
+   "SpecialArrowPheramone",
+   "SpecialArrowTaser",
+   "SpecialArrowChemical",
+   "BansheeModule",
+   "Magnetic",
+   "RadioModule",
+   "Ricochet",
+   "VelocityChange",
+   "DamageDefault",
+   "RadialDamageDefault",
+   "Trifork",
+   "Pentafork",
+   "BattleFrenzy",
+   "IncreaseSpecialAmmo",
+   "IncreaseSpecialAmmoPercent",
+   "SuperFast",
+   "IncreaseSpecialEffectDuration",
+   "FasterSwitch",
+   "CryoArrow",
+   "FireArrow",
+   "ReloadTimeDefaultArrow",
+   "RateOfFireDefaultArrow"
+  ],
+  "ECryoSprayUpgrades": [
+   "PressureDropMultiplier",
+   "PressureGainMultiplier",
+   "ChargeupTime",
+   "RePressurisationTime",
+   "FrozenTargetsCanShatter",
+   "AoECold",
+   "LongReach",
+   "SprayWidth"
+  ],
+  "EDamageUpgrade": [
+   "Damage",
+   "WeakpointDamageMultiplier",
+   "StaggerChance",
+   "StaggerDuration",
+   "RadialDamage",
+   "RadialRange",
+   "ArmorDamageMultiplier",
+   "FearFactor",
+   "RadialRangeMultiplier",
+   "StaggerOnWeakpointOnly",
+   "FriendlyFireModifier",
+   "ShattersArmor",
+   "ArmorPenetration"
+  ],
+  "EDetPackUpgrades": [
+   "CanPickUp",
+   "CarveDiameter",
+   "ExplodeOnDeath",
+   "ExtraFearRadius",
+   "ExtraStaggerRadius"
+  ],
+  "EDoubleDrillUpgradeType": [
+   "MiningRate",
+   "MaxFuel",
+   "HeatRemovalOnKill",
+   "HeatRemovalOnDamage",
+   "MovementPenalty"
+  ],
+  "EDualMachinePistolsUpgrades": [
+   "TriggerStatusEffectOnEmptyClip"
+  ],
+  "EElectricalSMGUpgrades": [
+   "AoEChance",
+   "PlasmaBeam",
+   "TurretEMPDischarge"
+  ],
+  "EFlameThrowerUpgradeType": [
+   "StickyFlameDuration",
+   "LongReach",
+   "AoEHeat",
+   "KilledTargetsExplodeChance"
+  ],
+  "EFlaregunProjectileUpgrades": [
+   "Duration"
+  ],
+  "EFlaregunUpgrades": [
+   "AutoReload"
+  ],
+  "EFlareUpgradeType": [
+   "Duration",
+   "MaxFlares",
+   "ProductionTime"
+  ],
+  "EGatlingGunUpgrade": [
+   "DamageMultiplierAtMaxStabilization",
+   "HeatRemovedOnKill",
+   "CriticalOverheat",
+   "BarrelProximityDamage"
+  ],
+  "EGooGunProjectileUpgrades": [
+   "PuddleLifeSpan",
+   "FragmentCount"
+  ],
+  "EGooGunUpgrades": [
+   "ChargeFire",
+   "BurstFire",
+   "ShotCostCharged",
+   "ChargeTime",
+   "ChargeShotCount"
+  ],
+  "EGrapplingHookUpgrade": [
+   "MaxDistance",
+   "MaxSpeed",
+   "WindUpTime"
+  ],
+  "EGrenadeUpgradeType": [
+   "MaxGrenades",
+   "FuseTime"
+  ],
+  "EHeavyParticleCannonUpgrade": [
+   "ReloadOnButtonRelease",
+   "BoosterModule",
+   "KillAddsAmmo",
+   "RadialDamageIncPerSecond",
+   "RadialRangeIncPerSecond",
+   "BulkyBeam",
+   "ProjectionModule",
+   "PlatformExplosions"
+  ],
+  "EHitScanBaseUpgradeType": [
+   "MaxVerticalSpread",
+   "MaxHorizontalSpread",
+   "MaxPenetrations",
+   "WeaponAccuracySpreadMultiplier",
+   "SpreadPerShot",
+   "MinSpreadWhileMoving",
+   "SpreadRecoveryMultiplier",
+   "MinSpreadWhileSprinting",
+   "MaxSpread",
+   "RicochetChance",
+   "RicochetOnWeakspotOnly",
+   "RicochetBehaviourAll",
+   "RicochetBehaviourPawnsOnly",
+   "RicochetBehaviourNotPawns"
+  ],
+  "EInventoryItemUpgradeType": [
+   "MovementSpeedWhileUsing",
+   "CooldownRate",
+   "UnJamDuration",
+   "ManualCooldownDelay",
+   "ManualHeatPerUse"
+  ],
+  "EItemUpgradeStatus": [
+   "Locked",
+   "AvailableCannotAfford",
+   "AvailableCanAfford",
+   "Owned",
+   "Equipped"
+  ],
+  "ELineCutterProjectileUpgradeType": [
+   "LineSize",
+   "LineSizeMultiplier",
+   "ExplosiveRound",
+   "SetDeployDelay",
+   "AddDeployTime",
+   "ExplodeOnNextProjectile",
+   "DoubleLine",
+   "LineSizeAdd",
+   "SetDeployTime",
+   "RollUntilStop",
+   "Yawing",
+   "PlasmaTrail",
+   "Homing"
+  ],
+  "ELineCutterUpgradeType": [
+   "ReverseDirection",
+   "ExplodeLastProjectile"
+  ],
+  "ELockOnWeaponUpgrades": [
+   "MaxLockOnDegree",
+   "TimeBetweenLockedShots",
+   "LockOnTime",
+   "MaxTargets",
+   "LoseLockOnDegree",
+   "MaxLockOnRange",
+   "PrioritizeLowHitpoint",
+   "AlwaysHitTarget",
+   "MaxLockOnDuration",
+   "LockOnControlsSentryGun",
+   "AoeHitCountThreshhold",
+   "SentryGunShootsOnLockedShot",
+   "UseLockOnTargetStatusEffect",
+   "FearEnabled"
+  ],
+  "EMicroMissileLauncherUpgrades": [
+   "ChargeFire",
+   "BuckFire",
+   "DisableHomingOnRelease",
+   "ShotDirectionHorizontalDegreeOffset",
+   "ShotDirectionVerticleDegreeOffset"
+  ],
+  "EMicrowaveGunUpgrade": [
+   "ESlowOnHit",
+   "EFocusLense",
+   "EWideLense",
+   "ESpreadFire",
+   "ESpreadNeuro",
+   "EKilledTargetsExplodeChance",
+   "ERadiantSuperheater",
+   "EHeatsink",
+   "BlisteringNecrosis",
+   "EGammaContaminationZone",
+   "ETemperatureAmplifier"
+  ],
+  "EModifyStatusEffectDamageUpgrade": [
+   "Duration"
+  ],
+  "EMultiHitscanUpgradeType": [
+   "BulletsPerShot"
+  ],
+  "EPickaxeUpgradeType": [
+   "RockMining",
+   "OneHitMineralMining",
+   "ReceiveBonusMineralNitra",
+   "ReceiveBonusMineralGold",
+   "EnablePowerAttack",
+   "PowerAttackCoolDown"
+  ],
+  "EPlasmaCarbineUpgrades": [
+   "RateOfFireBoostOnFullShield",
+   "RemoveShieldOnOverheat",
+   "RemoveShieldOnReload"
+  ],
+  "EPlatformGunUpgrades": [
+   "BiggerPlatform",
+   "LessFallDamage",
+   "BugRepellant",
+   "CubePlatform"
+  ],
+  "EProjectileLauncherBaseUpgradeType": [
+   "VerticalSpread",
+   "HorizontalSpread",
+   "TransferVelocityFromCharacter",
+   "ArcStartAngle"
+  ],
+  "EProjectileUpgrade": [
+   "Velocity",
+   "MaxVelocity",
+   "Bouncy",
+   "Lifetime",
+   "DoOnImpact",
+   "DoOnImpact2",
+   "DoOnImpact3",
+   "DoOnSpawn",
+   "HomingStrength",
+   "SetInitialSpeedToMaxSpeed",
+   "AccelerationMultiplier",
+   "MaxPropulsionTime",
+   "GravityScale",
+   "CustomEvent"
+  ],
+  "EReflectionHitscanUpgradeType": [
+   "ReflectionCount"
+  ],
+  "ERevolerUpgrades": [
+   "OnKillFearFactor"
+  ],
+  "ESawedOffShotgunUpgrades": [
+   "FearOnShoot",
+   "ShockWave",
+   "ShotgunJump"
+  ],
+  "ESentryGunUpgradeType": [
+   "MaxAmmo",
+   "ReloadSpeed",
+   "ExtraSentry",
+   "AngleRestriction",
+   "ManualTargeting",
+   "MaxRange",
+   "RotationSpeed",
+   "BurstCooldown"
+  ],
+  "EShieldGeneratorUpgrades": [
+   "Radius",
+   "Duration",
+   "DeployTime",
+   "RechargeTime",
+   "RechargeCount",
+   "PushStatusEffect"
+  ],
+  "ESingleUsableUpgradeType": [
+   "UseDuration"
+  ],
+  "EUpgradeCalucationType": [
+   "Additive",
+   "Multiplicative"
+  ],
+  "EUpgradeClass": [
+   "Class_A",
+   "Class_B",
+   "Gear_A",
+   "Gear_B",
+   "Armor",
+   "Pickaxe",
+   "Class_Bosco"
+  ],
+  "EUpgradeTiers": [
+   "Tier_1",
+   "Tier_2",
+   "Tier_3",
+   "Tier_4",
+   "Tier_5"
+  ],
+  "EZiplineGunUpgrades": [
+   "MaxAngle",
+   "MaxDistance",
+   "MovementSpeed",
+   "FallDamageReduction"
+  ]
+ },
+ "classes": [
+  {
+   "class": "UAmmoDrivenWeaponUpgrade",
+   "enum": "EAmmoDrivenWeapnUpgradeType",
+   "header": "AmmoDrivenWeaponUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UArmorUpgrade",
+   "enum": "EArmorUpgradeType",
+   "header": "ArmorUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UAssaultRifleUpgrade",
+   "enum": "EAssaultRifleUpgrade",
+   "header": "AssaultRifleUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UAutoCannonUpgrade",
+   "enum": "EAutoCannonUpgrades",
+   "header": "AutoCannonUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UAutoShotgunUpgrade",
+   "enum": "EAutoShotgunUpgrades",
+   "header": "AutoShotgunUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UBeltDrivenWeaponUpgrade",
+   "enum": "EBeltDrivenWeaponUpgrade",
+   "header": "BeltDrivenWeaponUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UBoltActionRifleUpgrade",
+   "enum": "EBoltActionRifleUpgrades",
+   "header": "BoltActionRifleUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UBoscoUpgrade",
+   "enum": "EBoscoUpgrades",
+   "header": "BoscoUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UBurstWeaponUpgrade",
+   "enum": "EBurstWeaponUpgrades",
+   "header": "BurstWeaponUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UCapsuleHitscanUpgrade",
+   "enum": "ECapsuleHitscanUpgradeType",
+   "header": "CapsuleHitscanUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UChargedProjectileUpgrade",
+   "enum": "EChargedProjectileUpgrades",
+   "header": "ChargedProjectileUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UChargedWeaponUpgrade",
+   "enum": "EChargedWeaponUpgrades",
+   "header": "ChargedWeaponUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UCoilgunUpgrade",
+   "enum": "ECoilgunUpgrades",
+   "header": "CoilgunUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UCrossbowUpgrade",
+   "enum": "ECrossbowUpgrades",
+   "header": "CrossbowUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UCryoSprayUpgrade",
+   "enum": "ECryoSprayUpgrades",
+   "header": "CryoSprayUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UDamageUpgrade",
+   "enum": "EDamageUpgrade",
+   "header": "DamageUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UDetPackUpgrade",
+   "enum": "EDetPackUpgrades",
+   "header": "DetPackUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UDoubleDrillUpgrade",
+   "enum": "EDoubleDrillUpgradeType",
+   "header": "DoubleDrillUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UDualMachinePistolsUpgrade",
+   "enum": "EDualMachinePistolsUpgrades",
+   "header": "DualMachinePistolsUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UElectricalSMGUpgrade",
+   "enum": "EElectricalSMGUpgrades",
+   "header": "ElectricalSMGUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UFlameThrowerUpgrade",
+   "enum": "EFlameThrowerUpgradeType",
+   "header": "FlameThrowerUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UFlaregunProjectileUpgrade",
+   "enum": "EFlaregunProjectileUpgrades",
+   "header": "FlaregunProjectileUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UFlareGunUpgrade",
+   "enum": "EFlaregunUpgrades",
+   "header": "FlareGunUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UFlareUpgrade",
+   "enum": "EFlareUpgradeType",
+   "header": "FlareUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UGatlingGunUpgrade",
+   "enum": "EGatlingGunUpgrade",
+   "header": "GatlingGunUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UGooGunProjectileUpgrade",
+   "enum": "EGooGunProjectileUpgrades",
+   "header": "GooGunProjectileUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UGooGunUpgrade",
+   "enum": "EGooGunUpgrades",
+   "header": "GooGunUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UGrapplingHookUpgrade",
+   "enum": "EGrapplingHookUpgrade",
+   "header": "GrapplingHookUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UGrenadeUpgrade",
+   "enum": "EGrenadeUpgradeType",
+   "header": "GrenadeUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UHeavyParticleCannonUpgrade",
+   "enum": "EHeavyParticleCannonUpgrade",
+   "header": "HeavyParticleCannonUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UHitscanBaseUpgrade",
+   "enum": "EHitScanBaseUpgradeType",
+   "header": "HitscanBaseUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UInventoryItemUpgrade",
+   "enum": "EInventoryItemUpgradeType",
+   "header": "InventoryItemUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "ULineCutterProjectileUpgrade",
+   "enum": "ELineCutterProjectileUpgradeType",
+   "header": "LineCutterProjectileUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "ULineCutterUpgrade",
+   "enum": "ELineCutterUpgradeType",
+   "header": "LineCutterUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "ULockOnWeaponUpgrade",
+   "enum": "ELockOnWeaponUpgrades",
+   "header": "LockOnWeaponUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UMicroMissileLauncherUpgrade",
+   "enum": "EMicroMissileLauncherUpgrades",
+   "header": "MicroMissileLauncherUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UMicrowavegunUpgrade",
+   "enum": "EMicrowaveGunUpgrade",
+   "header": "MicrowavegunUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UModifyDynamicStatusEffectDamageBonusUpgrade",
+   "enum": "EModifyStatusEffectDamageUpgrade",
+   "header": "ModifyDynamicStatusEffectDamageBonusUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UMultiHitscanUpgrade",
+   "enum": "EMultiHitscanUpgradeType",
+   "header": "MultiHitscanUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UPickaxeUpgrade",
+   "enum": "EPickaxeUpgradeType",
+   "header": "PickaxeUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UPlasmaCarbineUpgrade",
+   "enum": "EPlasmaCarbineUpgrades",
+   "header": "PlasmaCarbineUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UPlatformGunUpgrade",
+   "enum": "EPlatformGunUpgrades",
+   "header": "PlatformGunUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UProjectileLauncherBaseUpgrade",
+   "enum": "EProjectileLauncherBaseUpgradeType",
+   "header": "ProjectileLauncherBaseUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UProjectileUpgrade",
+   "enum": "EProjectileUpgrade",
+   "header": "ProjectileUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UReflectionHitscanUpgrade",
+   "enum": "EReflectionHitscanUpgradeType",
+   "header": "ReflectionHitscanUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "URevolverUpgrade",
+   "enum": "ERevolerUpgrades",
+   "header": "RevolverUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "USawedOffShotgunUpgrade",
+   "enum": "ESawedOffShotgunUpgrades",
+   "header": "SawedOffShotgunUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "USentryGunUpgrade",
+   "enum": "ESentryGunUpgradeType",
+   "header": "SentryGunUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UShieldGeneratorUpgrade",
+   "enum": "EShieldGeneratorUpgrades",
+   "header": "ShieldGeneratorUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "USingleUsableUpgrade",
+   "enum": "ESingleUsableUpgradeType",
+   "header": "SingleUsableUpgrade.h",
+   "paired_by_name": false
+  },
+  {
+   "class": "UZiplineGunUpgrade",
+   "enum": "EZiplineGunUpgrades",
+   "header": "ZiplineGunUpgrade.h",
+   "paired_by_name": false
+  }
+ ],
+ "unpaired_classes": [
+  {
+   "class": "UAddComponentUpgrade",
+   "enum": null,
+   "header": "AddComponentUpgrade.h"
+  },
+  {
+   "class": "UArmorStatUpgrade",
+   "enum": null,
+   "header": "ArmorStatUpgrade.h"
+  },
+  {
+   "class": "UBasicPistolUpgrade",
+   "enum": null,
+   "header": "BasicPistolUpgrade.h"
+  },
+  {
+   "class": "UBonusDamageUpgrade",
+   "enum": null,
+   "header": "BonusDamageUpgrade.h"
+  },
+  {
+   "class": "UCapacityUpgrade",
+   "enum": null,
+   "header": "CapacityUpgrade.h"
+  },
+  {
+   "class": "UConditionalDamageModifierUpgrade",
+   "enum": null,
+   "header": "ConditionalDamageModifierUpgrade.h"
+  },
+  {
+   "class": "UConditionalDamageTagBonusUpgrade",
+   "enum": null,
+   "header": "ConditionalDamageTagBonusUpgrade.h"
+  },
+  {
+   "class": "UCooldownUpgrade",
+   "enum": null,
+   "header": "CooldownUpgrade.h"
+  },
+  {
+   "class": "UCryoSprayProjectileUpgrade",
+   "enum": null,
+   "header": "CryoSprayProjectileUpgrade.h"
+  },
+  {
+   "class": "UDamageConversionUpgrade",
+   "enum": null,
+   "header": "DamageConversionUpgrade.h"
+  },
+  {
+   "class": "UDamageTagBonusUpgrade",
+   "enum": null,
+   "header": "DamageTagBonusUpgrade.h"
+  },
+  {
+   "class": "UFearAoEBonusUpgrade",
+   "enum": null,
+   "header": "FearAoEBonusUpgrade.h"
+  },
+  {
+   "class": "UFlatDamageUpgrade",
+   "enum": null,
+   "header": "FlatDamageUpgrade.h"
+  },
+  {
+   "class": "UGatlingHotShellsBonusUpgrade",
+   "enum": null,
+   "header": "GatlingHotShellsBonusUpgrade.h"
+  },
+  {
+   "class": "ULockCountSTEBonusUpgrade",
+   "enum": null,
+   "header": "LockCountSTEBonusUpgrade.h"
+  },
+  {
+   "class": "UOverclockUpgrade",
+   "enum": null,
+   "header": "OverclockUpgrade.h"
+  },
+  {
+   "class": "UPushDynamicStatusEffectDamageBonusUpgrade",
+   "enum": null,
+   "header": "PushDynamicStatusEffectDamageBonusUpgrade.h"
+  },
+  {
+   "class": "UPushSatusEffectDamageBonusUpgrade",
+   "enum": null,
+   "header": "PushSatusEffectDamageBonusUpgrade.h"
+  },
+  {
+   "class": "URandomDamageUpgrade",
+   "enum": null,
+   "header": "RandomDamageUpgrade.h"
+  },
+  {
+   "class": "USentryGunTypeUpgrade",
+   "enum": null,
+   "header": "SentryGunTypeUpgrade.h"
+  },
+  {
+   "class": "UStandardItemUpgrade",
+   "enum": null,
+   "header": "StandardItemUpgrade.h"
+  },
+  {
+   "class": "UStatusAndStateDamageBonusUpgrade",
+   "enum": null,
+   "header": "StatusAndStateDamageBonusUpgrade.h"
+  },
+  {
+   "class": "UStatusDamageBonusUpgrade",
+   "enum": null,
+   "header": "StatusDamageBonusUpgrade.h"
+  },
+  {
+   "class": "UStickyFlameStatusEffectUpgrade",
+   "enum": null,
+   "header": "StickyFlameStatusEffectUpgrade.h"
+  },
+  {
+   "class": "UTargetSpecificDamageBonusUpgrade",
+   "enum": null,
+   "header": "TargetSpecificDamageBonusUpgrade.h"
+  },
+  {
+   "class": "UTargetStateDamageBonusUpgrade",
+   "enum": null,
+   "header": "TargetStateDamageBonusUpgrade.h"
+  },
+  {
+   "class": "UTriggeredStatusEffectUpgrade",
+   "enum": null,
+   "header": "TriggeredStatusEffectUpgrade.h"
+  },
+  {
+   "class": "UWeaponHitCounterUpgrade",
+   "enum": null,
+   "header": "WeaponHitCounterUpgrade.h"
+  },
+  {
+   "class": "UWeaponSwitchProjectileUpgrade",
+   "enum": null,
+   "header": "WeaponSwitchProjectileUpgrade.h"
+  }
+ ],
+ "stats": {
+  "enum_count": 55,
+  "enum_value_total": 318,
+  "paired_classes": 51,
+  "unpaired_classes": 29
+ }
+}

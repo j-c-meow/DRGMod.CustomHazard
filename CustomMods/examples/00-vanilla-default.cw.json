@@ -1,0 +1,8 @@
+{
+  "FormatVersion": 1,
+  "Name": "原版默认（空配置）",
+  "Description": "不做任何修改的空配置。加载它 = 完全原版武器数值。",
+  "Author": "j-c-meow",
+  "Overrides": {},
+  "CustomOverclocks": []
+}

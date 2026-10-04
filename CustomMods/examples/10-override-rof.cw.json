@@ -1,0 +1,13 @@
+{
+  "FormatVersion": 1,
+  "Name": "射速加倍实验",
+  "Description": "把「铅弹风暴」突击步枪均衡超频的射速加成 +3 改为 +6（M0 管线实测同款）。",
+  "Author": "j-c-meow",
+  "Overrides": {
+    "OC_Bonus_RoF+3_AssaultRifle": {
+      "Weapon": "AssaultRifle",
+      "Set": { "Amount": 6.0 }
+    }
+  },
+  "CustomOverclocks": []
+}
