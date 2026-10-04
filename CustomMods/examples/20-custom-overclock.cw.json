@@ -1,7 +1,7 @@
 {
   "FormatVersion": 1,
   "Name": "我的第一个自定义超频",
-  "Description": "在突击步枪上创建全新超频：+3 射速、-30% 后坐力（均衡品质，替换 RoF_B 槽位）。",
+  "Description": "在突击步枪上创建全新超频：+4 射速、-30% 后坐力（均衡品质，重铸 RoF_B 槽位）。",
   "Author": "j-c-meow",
   "Overrides": {},
   "CustomOverclocks": [
@@ -11,9 +11,9 @@
       "Quality": "Balanced",
       "Name": "稳如老狗",
       "Description": "射速小涨，后坐力大降。为稳定输出而生。",
-      "StatTexts": ["+3 射速", "-30% 后坐力"],
+      "StatTexts": ["+4 射速", "-30% 后坐力"],
       "Elements": [
-        { "Class": "AmmoDrivenWeaponUpgrade", "UpgradeType": "RateOfFire", "Amount": 3.0 },
+        { "Class": "AmmoDrivenWeaponUpgrade", "UpgradeType": "RateOfFire", "Amount": 4.0 },
         { "Class": "AmmoDrivenWeaponUpgrade", "UpgradeType": "RecoilMultiplier", "Amount": -0.3 }
       ],
       "Replace": "OC_AssaultRifle_RoF_B"
