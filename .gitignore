@@ -1,0 +1,9 @@
+obj
+bin
+.vs
+.idea
+.DS_Store
+Intermediate
+Saved
+DerivedDataCache
+Binaries
