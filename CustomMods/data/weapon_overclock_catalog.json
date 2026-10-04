@@ -1,0 +1,3927 @@
+{
+ "generated": "2026-10-04",
+ "weapons": 23,
+ "overclocks": 186,
+ "elements_resolved": 350,
+ "catalog": {
+  "AssaultRifle": [
+   {
+    "asset": "OC_AssaultRifle_BurstFire",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_DisableFullAuto_AssaultRifle",
+      "type": "ActivateAutomaticFireMode",
+      "amount": -1.0
+     },
+     {
+      "asset": "OC_Bonus_BurstFire_AssaultRifle",
+      "type": "BurstCount",
+      "amount": 2.0
+     },
+     {
+      "asset": "OC_Bonus_BurstFireSpeed_AssaultRifle",
+      "type": "BurstRateOfFire",
+      "amount": -19.950000762939453
+     },
+     {
+      "asset": "OC_Bonus_ClipSize_Burst_AssaultRifle",
+      "type": "ClipSize",
+      "amount": 1.1150000095367432
+     },
+     {
+      "asset": "OC_Penalty_RoF-X_AssaultRifle",
+      "type": "RateOfFire",
+      "amount": 0.30000001192092896
+     },
+     {
+      "asset": "OC_Bonus_Damage_2_AssaultRifle",
+      "type": null,
+      "amount": 2.0
+     },
+     {
+      "asset": "Bonus_Stun_10_AssaultRifle",
+      "type": "StaggerChance",
+      "amount": 0.10000000149011612
+     }
+    ]
+   },
+   {
+    "asset": "OC_AssaultRifle_ClipSize_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ClipSize5_AssaultRifle",
+      "type": "ClipSize",
+      "amount": 5.0
+     },
+     {
+      "asset": "Bonus_Recoil_AssaultRifle",
+      "type": "RecoilMultiplier",
+      "amount": 0.699999988079071
+     }
+    ]
+   },
+   {
+    "asset": "OC_AssaultRifle_ElectricReload_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ElectricReload",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_MaxAmmo_AssaultRifle",
+      "type": null,
+      "amount": -60.0
+     },
+     {
+      "asset": "Penalty_ClipSize5_AssaultRifle",
+      "type": "ClipSize",
+      "amount": -10.0
+     },
+     {
+      "asset": "OC_Bonus_ElectricReload_DMG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_ElectricReload_Marker",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_AssaultRifle_PerfectStability_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_NoRecoil_AssaultRifle",
+      "type": "RecoilMultiplier",
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_NoShotSpread_AssaultRifle",
+      "type": "SpreadRecoveryMultiplier",
+      "amount": 9.0
+     },
+     {
+      "asset": "OC_Bonus_NoSpreadWhileWalking_AssaultRifle",
+      "type": "MinSpreadWhileMoving",
+      "amount": -5.0
+     },
+     {
+      "asset": "OC_Penalty_Damage-2_AssaultRifle",
+      "type": null,
+      "amount": -1.0
+     },
+     {
+      "asset": "OC_Penalty_RoF-2_AssaultRifle",
+      "type": "RateOfFire",
+      "amount": -2.0
+     },
+     {
+      "asset": "OC_Bonus_WeakpointDamage_20p_AssaultRifle",
+      "type": "WeakpointDamageMultiplier",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_AssaultRifle_RandomDamage_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_RandomDamage_AssaultRifle",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_AssaultRifle_RoF_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_RoF+3_AssaultRifle",
+      "type": "RateOfFire",
+      "amount": 3.0
+     },
+     {
+      "asset": "OC_Penalty_Recoil_AssaultRifle",
+      "type": "RecoilMultiplier",
+      "amount": 1.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_AssaultRifle_RoFandReload_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_ReloadTime-02_AssaultRifle",
+      "type": "ReloadSpeed",
+      "amount": 0.8399999737739563
+     },
+     {
+      "asset": "OC_Bonus_RoF1_AssaultRifle",
+      "type": "RateOfFire",
+      "amount": 1.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_AssaultRifle_VolatileBullets_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_DamageVsStatusAndState_GK2",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ClipSize_50p_AssaultRifle",
+      "type": "ClipSize",
+      "amount": 0.6000000238418579
+     }
+    ]
+   }
+  ],
+  "Autocannon": [
+   {
+    "asset": "OC_Autocannon_DamageBig_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_Damage10_AC",
+      "type": null,
+      "amount": 12.0
+     },
+     {
+      "asset": "Bonus_Accuracy_AC",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 0.699999988079071
+     },
+     {
+      "asset": "Penalty_MaxAmmo-110_AC",
+      "type": null,
+      "amount": -110.0
+     },
+     {
+      "asset": "Penalty_ClipSize55_AC",
+      "type": "ClipSize",
+      "amount": 0.5
+     },
+     {
+      "asset": "Penalty_MaxFireRate_Big",
+      "type": "MaxFireRate",
+      "amount": -1.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Autocannon_Grenades_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_RadialRange_percent_Autocannon",
+      "type": "RadialRange",
+      "amount": 1.4500000476837158
+     },
+     {
+      "asset": "OC_Bonus_RadialDamage_4_Autocannon",
+      "type": "RadialDamage",
+      "amount": 1.350000023841858
+     },
+     {
+      "asset": "Penalty_DirectDamage-9_AC",
+      "type": null,
+      "amount": -7.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Autocannon_MaxAmmo_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_MaxAmmo_AC",
+      "type": null,
+      "amount": 110.0
+     },
+     {
+      "asset": "Bonus_ReloadTime05_AC",
+      "type": "ReloadSpeed",
+      "amount": -0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Autocannon_MortarProjectiles_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_EnableProjecitleLauncher_AutoCannon",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_RadialDamage_28_Autocannon",
+      "type": "RadialDamage",
+      "amount": 7.0
+     },
+     {
+      "asset": "OC_Bonus_RadialRange_25P_Autocannon",
+      "type": "RadialRange",
+      "amount": 1.25
+     },
+     {
+      "asset": "OC_Penalty_Damage_14_Autocannon_",
+      "type": null,
+      "amount": -14.0
+     },
+     {
+      "asset": "Penalty_StartingFireRate_50P_AutoCannon",
+      "type": "StartingFireRate",
+      "amount": 0.4000000059604645
+     },
+     {
+      "asset": "Penalty_MaxFireRate_50P_Autocannon",
+      "type": "MaxFireRate",
+      "amount": 0.5
+     },
+     {
+      "asset": "Bonus_MortarCrosshair_Autocannon",
+      "type": "CustomEvent1",
+      "amount": null
+     },
+     {
+      "asset": "Penalty_MaxAmmo_40p_AutoCannon",
+      "type": null,
+      "amount": 0.3179999887943268
+     },
+     {
+      "asset": "Penalty_ClipSize30P_AC",
+      "type": "ClipSize",
+      "amount": 0.3179999887943268
+     }
+    ]
+   },
+   {
+    "asset": "OC_Autocannon_MovementSpeed_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_MovementSpeed_07_Autocannon",
+      "type": null,
+      "amount": 0.3499999940395355
+     },
+     {
+      "asset": "Bonus_Accuracy_AC",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 0.699999988079071
+     },
+     {
+      "asset": "Penalty_ClipSize05_AC",
+      "type": "ClipSize",
+      "amount": 0.5
+     },
+     {
+      "asset": "Bonus_FireRateGrowth_AC",
+      "type": null,
+      "amount": 1.5
+     },
+     {
+      "asset": "Bonus_StartingFireRate_AC",
+      "type": "StartingFireRate",
+      "amount": 0.8999999761581421
+     }
+    ]
+   },
+   {
+    "asset": "OC_Autocannon_Neurotoxin_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_NeuroToxinAoE_Autocannon",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_RadialRange_200_Autocannon",
+      "type": "RadialRange",
+      "amount": 30.0
+     },
+     {
+      "asset": "Penalty_SplashDamage-4_AC",
+      "type": "RadialDamage",
+      "amount": -6.0
+     },
+     {
+      "asset": "Penalty_MaxAmmo_10P_AC",
+      "type": null,
+      "amount": -110.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Autocannon_SplashRange_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_RadialRange25_AC",
+      "type": "RadialRange",
+      "amount": 30.0
+     },
+     {
+      "asset": "OC_Bonus_RadialDamage_1_Autocannon",
+      "type": "RadialDamage",
+      "amount": 1.0
+     }
+    ]
+   }
+  ],
+  "BoltActionRifle": [
+   {
+    "asset": "OC_M1000_Ammo_C1",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ClipSize_2",
+      "type": "ClipSize",
+      "amount": 1.25
+     },
+     {
+      "asset": "Bonus_Reload_M1K",
+      "type": "ReloadSpeed",
+      "amount": -0.20000000298023224
+     }
+    ]
+   },
+   {
+    "asset": "OC_M1000_FocusDamage_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_FocusDamage_200P_M1000",
+      "type": "FocusDamageBonus",
+      "amount": 1.5
+     },
+     {
+      "asset": "OC_Penalty_Ammo_20_M1000",
+      "type": null,
+      "amount": 0.6850000023841858
+     },
+     {
+      "asset": "OC_Penalty_CantMove_M1000",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_FocusSpeed_M1000",
+      "type": null,
+      "amount": 0.6000000238418579
+     },
+     {
+      "asset": "OC_Penalty_ClipSize",
+      "type": "ClipSize",
+      "amount": 0.7300000190734863
+     },
+     {
+      "asset": "OC_Bonus_FocusWewakpointDMG_M1000",
+      "type": "AimedShotWeakpointDamageBonusMultiplier",
+      "amount": 2.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_M1000_FocusElectrocute_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_FocusSTE_M1000",
+      "type": "FocusedWeakspotHitStatusEffect",
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_FocusDamage_50P_M1000",
+      "type": "FocusDamageBonus",
+      "amount": -0.25
+     }
+    ]
+   },
+   {
+    "asset": "OC_M1000_FocusWeakening_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_FocusSpeed_M1000",
+      "type": null,
+      "amount": 0.3100000023841858
+     },
+     {
+      "asset": "OC_Penalty_ClipSize_2",
+      "type": "ClipSize",
+      "amount": -2.0
+     },
+     {
+      "asset": "OC_Penalty_AimedShotCost_M1000_1",
+      "type": "AimedShotAmmoCost",
+      "amount": 1.0
+     },
+     {
+      "asset": "OC_Penalty_FocusDamage_99P_M1000",
+      "type": "FocusDamageBonus",
+      "amount": 0.009999999776482582
+     },
+     {
+      "asset": "OC_Bonus_CanLaserPoint",
+      "type": "CustomEvent1",
+      "amount": null
+     },
+     {
+      "asset": "Bonus_FocusSTE_Weakening_Bosses_M1000",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_FocusSTE_Weakening_M1000",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_M1000_Hipster_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Recoil_M1000",
+      "type": "RecoilMultiplier",
+      "amount": 0.5
+     },
+     {
+      "asset": "OC_Bonus_SpreadPerShot2_M1000",
+      "type": "SpreadPerShot",
+      "amount": -0.30000001192092896
+     },
+     {
+      "asset": "OC_Bonus_MaxSpread2_M1000",
+      "type": "MaxSpread",
+      "amount": 0.8500000238418579
+     },
+     {
+      "asset": "OC_Bonus_Ammo_20",
+      "type": null,
+      "amount": 1.9129999876022339
+     },
+     {
+      "asset": "Bonus_RoF_M1000",
+      "type": "RateOfFire",
+      "amount": 2.0
+     },
+     {
+      "asset": "OC_Penalty_Damage_15_M1000",
+      "type": null,
+      "amount": -17.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_M1000_Hoverclock_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Hoverclock",
+      "type": "NoGravityOnFocus",
+      "amount": 1.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_M1000_NoMovementPenalty_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_NoMovementPenalty_M1000",
+      "type": null,
+      "amount": 0.699999988079071
+     },
+     {
+      "asset": "OC_Bonus_FocusSpeed_M1000",
+      "type": null,
+      "amount": 0.3100000023841858
+     },
+     {
+      "asset": "Penalty_Reload_M1K",
+      "type": "ReloadSpeed",
+      "amount": 0.5
+     }
+    ]
+   }
+  ],
+  "BurstFirePistol": [
+   {
+    "asset": "OC_BRT_AmmoB_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_TotalAmmo72_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_RoF-1_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ReloadTime_BRT",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_BRT_Ammo_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_TotalAmmo36_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_BurstDelay1_BRT",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_BRT_BombOnHit_C",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_CreateBombOnHit",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Damage-3_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ClipSizeBig_BRT",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_BRT_DamageB_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_Damage4_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ClipSize_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_TotalAmmo36_BRT",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_BRT_Damage_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_Damage1_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_ReloadTime_BRT",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_BRT_MicroFlechettes_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_TotalAmmo144_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_ClipSizeBig_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Damage-11_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Recoil25Percent_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_SpreadPerShot_BRT",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_BRT_RandomDamage_C",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_DamageBig_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Accuracy_BRT",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_BRT_SmartBullets_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bounus_DamageOnReload_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Damage-3_BRT",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_TotalAmmo72_BRT",
+      "type": null,
+      "amount": null
+     }
+    ]
+   }
+  ],
+  "ChargeBlaster": [
+   {
+    "asset": "OC_Bonus_ChargeAoE_DMG_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Bonus_ChargeCost-2_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Bonus_ChargeDirectDMG_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Bonus_ChargeSpeed035_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Bonus_ChargeSpeed_025_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Bonus_ChargedDamageRadius_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Bonus_CoolingRate01_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Bonus_NormalAoEDamage5_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Bonus_NormalDamage5_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Bonus_PersistentExplosion_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_EPC_ChargeCost_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ChargeCost-2_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_ChargeSpeed_025_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_HeatPerChargedShot_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_HeatWhileHoldingCharge_EPC",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_EPC_ChargeDirectDMG_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ChargeDirectDMG_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_ChargedDamageRadius_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_ChargeAoE_DMG_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_HeatBuildup_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_ChargeCost_EPC",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_EPC_ChargeTime_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ChargeSpeed035_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "BOnus_Ammo12_EPC",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_EPC_CoolingRate_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_CoolingRate01_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_LessHeatBuildup_EPC",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_EPC_NormalDamage_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_NormalDamage5_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_Ammo_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_HeatPerNormalShot_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_NormalAoEDamage5_EPC",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_EPC_PersistentExplosion_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_PersistentExplosion_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_ChargedExplosionDamage-20_EPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_ChargeDirectDmg_EPC",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_Penalty_Ammo_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Penalty_ChargeCost_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Penalty_ChargeDirectDmg_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Penalty_ChargedExplosionDamage-20_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Penalty_HeatBuildup_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Penalty_HeatPerChargedShot_EPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_Penalty_HeatPerNormalShot_EPC",
+    "quality": null,
+    "elements": []
+   }
+  ],
+  "CombatShotgun": [
+   {
+    "asset": "OC_CombatShotgun_AmmoNew_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Ammo10_CombatShotgun",
+      "type": null,
+      "amount": 18.0
+     },
+     {
+      "asset": "OC_Bonus_ReloadSpeed_CombatShotgun",
+      "type": "ReloadSpeed",
+      "amount": -0.4000000059604645
+     }
+    ]
+   },
+   {
+    "asset": "OC_CombatShotgun_ClipSize_B",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_BonusVsStun_CombatShotgun",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_StunAllBodyParts_CombatShotgun",
+      "type": "StaggerOnWeakpointOnly",
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_CombatShotgun_MiniShells_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Ammo50_CombatShotguin",
+      "type": null,
+      "amount": 78.0
+     },
+     {
+      "asset": "OC_Bonus_Recoil_CombatSHotgun",
+      "type": "RecoilMultiplier",
+      "amount": 0.5
+     },
+     {
+      "asset": "OC_Bonus_ClipSize-6_CombatShotgun",
+      "type": "ClipSize",
+      "amount": 6.0
+     },
+     {
+      "asset": "OC_Penalty_Damage_2_CombatSHotgun",
+      "type": null,
+      "amount": -2.0
+     },
+     {
+      "asset": "OC_Penalty_Stagger_CShot",
+      "type": "StaggerChance",
+      "amount": -0.10000000149011612
+     },
+     {
+      "asset": "OC_Penalty_StaggerDuration_CShot",
+      "type": "StaggerDuration",
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_CombatShotgun_PumpAction",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Damage+4_CombatShotgun",
+      "type": null,
+      "amount": 5.0
+     },
+     {
+      "asset": "OC_Bonus_BlowThrough1_CombatShotgun",
+      "type": "MaxPenetrations",
+      "amount": 1.0
+     },
+     {
+      "asset": "OC_Penalty_RoFLarge_CombatShotgun_2",
+      "type": "RateOfFire",
+      "amount": 0.44999998807907104
+     },
+     {
+      "asset": "OC_Penalty_AmmoHalved_CombatShotgun",
+      "type": null,
+      "amount": 0.6700000166893005
+     },
+     {
+      "asset": "OC_Penalty_ClipSize-2_CombatShotgun",
+      "type": "ClipSize",
+      "amount": 0.8299999833106995
+     },
+     {
+      "asset": "OC_Bonus_PumpAction_CombatShotgun",
+      "type": "CustomEvent1",
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_Pellets_2_CombatShotgun",
+      "type": null,
+      "amount": 2.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_CombatShotgun_RoF_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_RoF_3_CombatShotgun",
+      "type": "RateOfFire",
+      "amount": 2.0
+     },
+     {
+      "asset": "OC_Bonus_Damage+1_CombatShotgun",
+      "type": null,
+      "amount": 1.0
+     },
+     {
+      "asset": "OC_Penalty_Spread_2_CombatShotgun",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 1.5
+     },
+     {
+      "asset": "OC_Penalty_ReloadSpeed_CombatShotgun",
+      "type": "ReloadSpeed",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_CombatShotgun_Spread_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Spread_CombatShotgun",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 0.5
+     },
+     {
+      "asset": "OC_PenaltyExtreme_RoF_CombatShotgun",
+      "type": "RateOfFire",
+      "amount": 0.75
+     },
+     {
+      "asset": "OC_Bonus_WeakPointDamage_CombatShotgun",
+      "type": "WeakpointDamageMultiplier",
+      "amount": 0.30000001192092896
+     }
+    ]
+   }
+  ],
+  "Crossbow": [
+   {
+    "asset": "OC_Crossbow_BodkinPoints",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_Ricochet_Crossbow",
+      "type": "Ricochet",
+      "amount": null
+     },
+     {
+      "asset": "Bonus_AreaRadius_05_Crossbow",
+      "type": "RadialRange",
+      "amount": 0.5
+     },
+     {
+      "asset": "Penalty_DefaultReloadTime",
+      "type": "ReloadTimeDefaultArrow",
+      "amount": 1.5
+     },
+     {
+      "asset": "Penalty_DirectDamageDefault_75_Crossbow",
+      "type": "DamageDefault",
+      "amount": -75.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Crossbow_CryoArrow",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_CryoArrow_Crossbow",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_DirectDamageDefault_25_Crossbow",
+      "type": "DamageDefault",
+      "amount": -25.0
+     },
+     {
+      "asset": "Bonus_CryoArrowUpgrade_Crossbow",
+      "type": "CryoArrow",
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AreaDamageDefault_25_Crossbow",
+      "type": "DamageDefault",
+      "amount": -25.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Crossbow_FireArrow",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_BurningArrow_Crossbow",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AreaDamageDefault_25_Crossbow",
+      "type": "DamageDefault",
+      "amount": -25.0
+     },
+     {
+      "asset": "Penalty_DirectDamageDefault_25_Crossbow",
+      "type": "DamageDefault",
+      "amount": -25.0
+     },
+     {
+      "asset": "Bonus_FireArrowUpgrade_Crossbow",
+      "type": "FireArrow",
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_Crossbow_QuickFire",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_ReloadSpeed_Crossbow",
+      "type": "ReloadSpeed",
+      "amount": -0.20000000298023224
+     },
+     {
+      "asset": "Bonus_Velocity_100p_Crossbow",
+      "type": null,
+      "amount": 2.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Crossbow_Specialist",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_SpecialAmmo_Crossbow",
+      "type": "IncreaseSpecialAmmo",
+      "amount": 1.25
+     },
+     {
+      "asset": "Bonus_SpecialDuration_Crossbow",
+      "type": "IncreaseSpecialEffectDuration",
+      "amount": 1.2999999523162842
+     }
+    ]
+   },
+   {
+    "asset": "OC_Crossbow_Trifork",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_Trifork_Crossbow",
+      "type": "Trifork",
+      "amount": null
+     },
+     {
+      "asset": "Bonus_MaxAmmo_20p_Crossbow",
+      "type": null,
+      "amount": 1.2100000381469727
+     },
+     {
+      "asset": "Penalty_DirectDamageDefault_15p_Crossbow",
+      "type": "DamageDefault",
+      "amount": 0.8500000238418579
+     },
+     {
+      "asset": "Penalty_DefaultReloadTime",
+      "type": "ReloadTimeDefaultArrow",
+      "amount": 1.5
+     },
+     {
+      "asset": "Penalty_DefaultRateOfFire",
+      "type": "RateOfFireDefaultArrow",
+      "amount": 0.25
+     }
+    ]
+   }
+  ],
+  "Cryospray": [
+   {
+    "asset": "OC_Cryospray_Ammo+PressureDrop_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_Ammo25_Cryo",
+      "type": "ClipSize",
+      "amount": 25.0
+     },
+     {
+      "asset": "Bonus_PressureDropSpeed_Cryo",
+      "type": null,
+      "amount": 0.75
+     }
+    ]
+   },
+   {
+    "asset": "OC_Cryospray_Cooling+Rof_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_Cooling+1_Cryo",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_RoF_Cryo",
+      "type": "RateOfFire",
+      "amount": 0.800000011920929
+     },
+     {
+      "asset": "Penalty_ChargeTime_Cryo",
+      "type": "ChargeupTime",
+      "amount": 0.20000000298023224
+     },
+     {
+      "asset": "Penalty_PressureGainSpeed_Cryo",
+      "type": "PressureGainMultiplier",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Cryospray_FastFlow_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Penalty_PDropSpeed_Big_Cryo",
+      "type": null,
+      "amount": 2.25
+     },
+     {
+      "asset": "Bonu_PRegain_Cryo",
+      "type": "PressureGainMultiplier",
+      "amount": 2.700000047683716
+     },
+     {
+      "asset": "Bonus_RoF2_Cryo",
+      "type": "RateOfFire",
+      "amount": 0.800000011920929
+     }
+    ]
+   },
+   {
+    "asset": "OC_Cryospray_IceStorm_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_DamageVsFrozenMult_Cryo",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Damage_Cryo",
+      "type": null,
+      "amount": 2.0
+     },
+     {
+      "asset": "Penalty_Ammo-75_Cryo",
+      "type": "ClipSize",
+      "amount": -75.0
+     },
+     {
+      "asset": "Penalty_Cooling-5_Cryo",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_PressureDropSpeed_Cryo",
+      "type": null,
+      "amount": 1.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Cryospray_Icicle_U",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Icicle",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_REpressureDelay_+08_Cryo",
+      "type": "RePressurisationTime",
+      "amount": 1.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Cryospray_Snowball_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Snowball",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_REpressureDelay_+2_Cryo",
+      "type": "RePressurisationTime",
+      "amount": 1.0
+     },
+     {
+      "asset": "Penalty_Ammo-50_Cryo",
+      "type": "ClipSize",
+      "amount": -100.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_StickyCrystals_U",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_StickyCrystals_Cryo",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Ammo_20P_Cryo",
+      "type": "ClipSize",
+      "amount": 0.800000011920929
+     }
+    ]
+   }
+  ],
+  "DualMachinePistols": [
+   {
+    "asset": "OC_DualMP_CryoMines_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_CreateBombOnHit_DualMP",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Dmg-1_DualMP_2",
+      "type": null,
+      "amount": -1.0
+     },
+     {
+      "asset": "Penalty_ClipSize-10_DualMP",
+      "type": "ClipSize",
+      "amount": -10.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_DualMP_CustomCasings_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonuis_ClipSize15_DualMP",
+      "type": "ClipSize",
+      "amount": 30.0
+     },
+     {
+      "asset": "Penalty_RoF_DualMP",
+      "type": "RateOfFire",
+      "amount": -2.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_DualMP_Damage_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_DmgBig_DualMP",
+      "type": null,
+      "amount": 6.0
+     },
+     {
+      "asset": "Penalty_Accuracy_DualMP",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 1.5
+     },
+     {
+      "asset": "Penalty_MovmentSpeed_DualMP",
+      "type": null,
+      "amount": 0.5
+     },
+     {
+      "asset": "Penalty_NoWeakspotBonus_DualMP",
+      "type": "WeakpointDamageMultiplier",
+      "amount": null
+     },
+     {
+      "asset": "Bonus_ArmorBreak_DualMP",
+      "type": "ArmorDamageMultiplier",
+      "amount": 2.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_DualMP_ExplosiveReload",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_ExplosiveReload_DualMP",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Ammo-75_DualMP",
+      "type": null,
+      "amount": -400.0
+     },
+     {
+      "asset": "Penalty_Dmg-3_DualMP",
+      "type": null,
+      "amount": -6.0
+     },
+     {
+      "asset": "Penalty_ClipSize-50p_DualMP",
+      "type": "ClipSize",
+      "amount": -20.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_DualMP_ReloadSpeed_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_ReloadTime_DualMP",
+      "type": "ReloadSpeed",
+      "amount": -0.4000000059604645
+     },
+     {
+      "asset": "Bonus_RoF+1_DualMp",
+      "type": "RateOfFire",
+      "amount": 1.0
+     }
+    ]
+   }
+  ],
+  "FlameThrower": [
+   {
+    "asset": "OC_Flamethrower_ClipSize_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ClipSize_25_Flamethrower",
+      "type": "ClipSize",
+      "amount": 25.0
+     },
+     {
+      "asset": "Bonus_Ammo+100_Flamethrower",
+      "type": null,
+      "amount": 75.0
+     },
+     {
+      "asset": "OC_Penalty_Reload_Flamethrower",
+      "type": "ReloadSpeed",
+      "amount": 0.20000000298023224
+     },
+     {
+      "asset": "OC_Penalty_Reach_200_Flamethrower",
+      "type": "LongReach",
+      "amount": -200.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Flamethrower_DMG_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_DMG+3_Flamethrower",
+      "type": null,
+      "amount": 4.0
+     },
+     {
+      "asset": "Bonus_RoF_Flamethrower",
+      "type": "RateOfFire",
+      "amount": 1.7999999523162842
+     },
+     {
+      "asset": "Penalty_ClipSize_15_Flamethrower",
+      "type": "ClipSize",
+      "amount": -15.0
+     },
+     {
+      "asset": "OC_Penalty_Reach_300_Flamethrower",
+      "type": "LongReach",
+      "amount": -300.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Flamethrower_Hellfire_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Hellfire_Flamethrower",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AmmoCostHellfire_Flamethrower",
+      "type": "CustomEvent1",
+      "amount": null
+     },
+     {
+      "asset": "Bonus_InfernoCrosshair_Flamethrower",
+      "type": "CustomEvent1",
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_Flamethrower_MaxAmmo_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_Ammo+75_Flamethrower",
+      "type": null,
+      "amount": 75.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Flamethrower_Range_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Reach_500_Flamethrower",
+      "type": "LongReach",
+      "amount": 500.0
+     },
+     {
+      "asset": "OC_Penalty_RoF_2_Flamethrower",
+      "type": "RateOfFire",
+      "amount": -1.2000000476837158
+     }
+    ]
+   },
+   {
+    "asset": "OC_Flamethrower_StickyDuration_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_StickyDuration_6_Flamethrower",
+      "type": null,
+      "amount": 6.0
+     },
+     {
+      "asset": "Bonus_StickyDamage_Flamethrower",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ClipSize_25_Flamethrower",
+      "type": "ClipSize",
+      "amount": -25.0
+     },
+     {
+      "asset": "Penalty_Ammo-75_Flamethrower",
+      "type": null,
+      "amount": -75.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Flamethrower_StickyFlameDuration_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "BOnus_StickyDuration+1",
+      "type": null,
+      "amount": 1.0
+     },
+     {
+      "asset": "Bonus_Dmg+1_Flamethrower",
+      "type": null,
+      "amount": 1.0
+     }
+    ]
+   }
+  ],
+  "GatlingGun": [
+   {
+    "asset": "OC_Gatling_AmmoNew_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Ammo300_Gatling",
+      "type": "ClipSize",
+      "amount": 300.0
+     },
+     {
+      "asset": "Bonus_CoolingRate_Gatling",
+      "type": "CooldownRate",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Gatling_Ammo_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Ammo_800",
+      "type": "ClipSize",
+      "amount": 800.0
+     },
+     {
+      "asset": "OC_Penalty_RoF_2",
+      "type": "RateOfFire",
+      "amount": -2.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Gatling_DamageB_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Damage_2",
+      "type": null,
+      "amount": 2.0
+     },
+     {
+      "asset": "OC_Penalty_Accuracy3",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 2.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Gatling_DamageNew_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Damage1",
+      "type": null,
+      "amount": 1.0
+     },
+     {
+      "asset": "Bonus_SpinupTime-02_Gatling",
+      "type": null,
+      "amount": -0.20000000298023224
+     }
+    ]
+   },
+   {
+    "asset": "OC_Gatling_Damage_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Damage_5",
+      "type": null,
+      "amount": 4.0
+     },
+     {
+      "asset": "OC_Penalty_MovmentSpeed_0",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_NoStagger",
+      "type": "StaggerChance",
+      "amount": 0.25
+     },
+     {
+      "asset": "OC_Penalty_NoStaggerDurration",
+      "type": "StaggerDuration",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Gatling_Flame_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_BarrelProximityDamage",
+      "type": "BarrelProximityDamage",
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_HeatupRate_2x",
+      "type": "HeatUpRateModifier",
+      "amount": 1.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Gatling_Ricochet_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Ricochet_Gatling",
+      "type": "RicochetChance",
+      "amount": 0.75
+     },
+     {
+      "asset": "OC_Penalty_Damage3",
+      "type": null,
+      "amount": -3.0
+     },
+     {
+      "asset": "OC_Penalty_Accuracy6",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 6.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Gatling_SuperCooling",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_ManualCooldownOnReload_Gatling",
+      "type": "HeatReductionOnReload",
+      "amount": 12.0
+     },
+     {
+      "asset": "OC_Bonus_RoF_GatlingGun",
+      "type": "RateOfFire",
+      "amount": 3.0
+     },
+     {
+      "asset": "OC_Penalty_HeatupRate_100p_GatlingGun",
+      "type": "HeatUpRateModifier",
+      "amount": 1.75
+     }
+    ]
+   }
+  ],
+  "GooCannon": [
+   {
+    "asset": "OC_GC_Disperser_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_FragmentAmount_GooCannon",
+      "type": "FragmentCount",
+      "amount": 6.0
+     },
+     {
+      "asset": "Bonus_FragmentDamageNormal_GooCannon",
+      "type": "RadialDamage",
+      "amount": 4.0
+     },
+     {
+      "asset": "Penalty_ChargedShotDamage_20_GooCannon",
+      "type": "RadialDamage",
+      "amount": -24.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_GC_GooTrail_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_TrailShot_GooCannon",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_FragmentDamageSmall_GooCannon",
+      "type": "RadialDamage",
+      "amount": 4.0
+     },
+     {
+      "asset": "Bonus_FragmentAmount2_GC",
+      "type": "FragmentCount",
+      "amount": 1.5
+     },
+     {
+      "asset": "Bonus_PuddleLifeTimeBig_GooCannon",
+      "type": null,
+      "amount": 1.3300000429153442
+     }
+    ]
+   },
+   {
+    "asset": "OC_GC_GravityAndVelocity_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_InreaseVelocity_10p_GC",
+      "type": null,
+      "amount": 0.30000001192092896
+     },
+     {
+      "asset": "Bonus_ReduceGravity_GooCannon",
+      "type": "GravityScale",
+      "amount": 0.25
+     },
+     {
+      "asset": "Bonus_ArcStartAngle_GooCannon",
+      "type": "ArcStartAngle",
+      "amount": -6.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_GC_HydrogenIon_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_PoisonDamageSmall_GooCannon",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_SlowdownSmall_GooCannon",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_GC_ImpactMixture_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_NormalShotDamage_GC",
+      "type": "RadialDamage",
+      "amount": 2.0
+     },
+     {
+      "asset": "Bonus_ChargedShotDamage_GC",
+      "type": "RadialDamage",
+      "amount": 2.0
+     },
+     {
+      "asset": "Penalty_STEDuration_GC",
+      "type": null,
+      "amount": 0.5
+     },
+     {
+      "asset": "Penalty_PuddleLifeTime_GooCannon",
+      "type": null,
+      "amount": 0.75
+     }
+    ]
+   },
+   {
+    "asset": "OC_GC_Stabilizer_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_PuddleLifeTime_GooCannon",
+      "type": null,
+      "amount": 2.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_GC_VolatilePuddles_U",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_Volatile_Puddles_GooCannon",
+      "type": "CustomEvent1",
+      "amount": null
+     },
+     {
+      "asset": "Bonus_ExplosiveGoo_GooCannon",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ChargeCost_2_GooCannon",
+      "type": "ShotCostCharged",
+      "amount": 2.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_GooCannon_Buckshot2_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_Buckshot_Enabled_GooCannon",
+      "type": "CustomEvent1",
+      "amount": null
+     },
+     {
+      "asset": "Bonus_BuckshotProjectile_GC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_ChargeShotCount_GooCannon",
+      "type": "ChargeShotCount",
+      "amount": 1.0
+     },
+     {
+      "asset": "Bonus_BuckshotVelocity_GC",
+      "type": null,
+      "amount": 1.0
+     },
+     {
+      "asset": "Bonus_BuckshotDamage",
+      "type": "RadialDamage",
+      "amount": 0.5
+     },
+     {
+      "asset": "Penalty_ReloadSpeed_GC",
+      "type": "ReloadSpeed",
+      "amount": 0.6000000238418579
+     },
+     {
+      "asset": "Penalty_MaxAmmo_20P_GC",
+      "type": null,
+      "amount": -40.0
+     }
+    ]
+   }
+  ],
+  "GrenadeLauncher": [
+   {
+    "asset": "OC_PGL_AmmoB_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_Ammo4_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Radius-50_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AoEDamage-10_PGL",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_PGL_Ammo_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_Ammo2_PGL",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_PGL_MiniNukes_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_Radius_100_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Damage300Percent_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ProjectileSpeed075_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Ammo-80p_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_RadiationArea_PGL",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_PGL_Radius_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_Radius50_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_AoEDamage-10_PGL",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_PGL_RocketJump_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_RocketJump_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_ReloadSpeed_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AoEDamage-30_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Ammo7_PGL",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_PGL_SuperFast_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_CrazyProjectileSpeed_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_DirectDMG_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Ammo-2_PGL",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Radius-150_PGL_2",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Special_Disintegration",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_HyperImpact",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Special_HyperCrosshair",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Special_HyperRecoil",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Special_HyperRecoil_Mass",
+      "type": null,
+      "amount": null
+     }
+    ]
+   }
+  ],
+  "HeavyParticleCannon": [
+   {
+    "asset": "OC_HPC_Bonus_BulkyBeam",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_HPC_Bonus_RadialDamagePerSecond",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_HPC_Bonus_RadialRangePerSecond",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_HPC_Bonus_ReloadActivatesBooster",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_HPC_Penalty_Clipsize15",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_HPC_Penalty_Clipsize30",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_HPC_Penalty_MaxAmmo250",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_HPC_Penalty_ReloadTime_2_HPC",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_HPC_PlatformExplodes",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_HPC_ReloadOnRelease",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_HeavyParticleCannon_FeedbackLoop",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_HPC_Bonus_RadialDamagePerSecond",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_HPC_Bonus_RadialRangePerSecond",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_HPC_Penalty_MaxAmmo250",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_HeavyParticleCannon_ForcedBeam",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_HPC_ReloadOnRelease",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_HPC_Penalty_Clipsize30",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_BurstSpeed_HPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_MaxAmmo_100_HPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Chargetime__025_HPC",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_HeavyParticleCannon_ProjectionModule",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_HPC_ProjectionModule",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_HPC_Penalty_ReloadTime_2_HPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_HPC_PlatformExplodes",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_MaxAmmo_60_HPC",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_HeavyParticleCannon_RapidCycle",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_Clip_30_HPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_MaxAmmo_50_HPC",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_HeavyParticleCannon_ReloadActivatesBooster",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_HPC_Bonus_ReloadActivatesBooster",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_HeavyParticleCannon_VolatileImpact",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_HPC_Bonus_BulkyBeam",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AoERange_25_HPC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_HPC_Penalty_Clipsize15",
+      "type": null,
+      "amount": null
+     }
+    ]
+   }
+  ],
+  "LineCutter": [
+   {
+    "asset": "OC_LineCutter_Ammo_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_Ammo4_LineCutter",
+      "type": null,
+      "amount": 3.0
+     },
+     {
+      "asset": "Bonus_ReloadTime-02_LineCutter",
+      "type": "ReloadSpeed",
+      "amount": -0.20000000298023224
+     }
+    ]
+   },
+   {
+    "asset": "OC_LineCutter_DMG+1_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_DMG+1_LineCutter",
+      "type": null,
+      "amount": 1.0
+     },
+     {
+      "asset": "Bonus_Lifetime_LineCutter",
+      "type": "Lifetime",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_LineCutter_ElectricSTE_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_ElectrocuteSTE_LineCutter",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ClipSize_LineCutter",
+      "type": "ClipSize",
+      "amount": 0.6000000238418579
+     }
+    ]
+   },
+   {
+    "asset": "OC_LineCutter_FireDamage_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_HeatDamage_75P-conversion",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ArmorDmg_x05_LineCutter",
+      "type": "ArmorDamageMultiplier",
+      "amount": 0.25
+     },
+     {
+      "asset": "Penalty_DMG-ForBurning_LineCutter",
+      "type": null,
+      "amount": -3.5
+     },
+     {
+      "asset": "Bonus_FireSTE_LineCutter",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_HeatSTE_LineCutter",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_LineCutter_ReverseIt_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ReverseIt",
+      "type": null,
+      "amount": 1.0
+     },
+     {
+      "asset": "Penalty_Ammo-4_LineCutter",
+      "type": null,
+      "amount": -6.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_LineCutter_RollControl_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Homing",
+      "type": "Homing",
+      "amount": 5000.0
+     },
+     {
+      "asset": "Bonus_Lifetime_LineCutter",
+      "type": "Lifetime",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_LineCutter_YawMan_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_YawMan",
+      "type": "Yawing",
+      "amount": 720.0
+     },
+     {
+      "asset": "Penalty_AmmoBig_Linecutter",
+      "type": null,
+      "amount": 0.6499999761581421
+     },
+     {
+      "asset": "Penalty_ClipsizeBig_Linecutter",
+      "type": "ClipSize",
+      "amount": 0.30000001192092896
+     },
+     {
+      "asset": "YawMan_Lifetime_LineCutter",
+      "type": "Lifetime",
+      "amount": 2.5
+     },
+     {
+      "asset": "YawMan__Linesize_LineCutter",
+      "type": "LineSizeAdd",
+      "amount": 150.0
+     },
+     {
+      "asset": "Penalty_DMGBig_LineCutter",
+      "type": null,
+      "amount": 0.23999999463558197
+     },
+     {
+      "asset": "Penalty_DMGInitial_LineCutter",
+      "type": null,
+      "amount": null
+     }
+    ]
+   }
+  ],
+  "LockOnRifle": [
+   {
+    "asset": "OC_LockOnRifle_ArmorBreaking_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_FullLock_ArmorBreak_LockOnRifle",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_LockOnRifle_Automatic_B",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_AutoShoot_LockOnRifle",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_LockOnRate_LockOnRifle",
+      "type": "LockOnTime",
+      "amount": 0.05000000074505806
+     },
+     {
+      "asset": "OC_Bonus_LockedROF_LockOnRifle",
+      "type": "TimeBetweenLockedShots",
+      "amount": 0.009999999776482582
+     },
+     {
+      "asset": "Bonus_LockOnRateOfFireModifier_LockOnRifle",
+      "type": "RateOfFireLockedOnModifier",
+      "amount": 20.0
+     },
+     {
+      "asset": "OC_Penalty_LockAmount_LockOnRifle",
+      "type": "MaxTargets",
+      "amount": 0.20000000298023224
+     }
+    ]
+   },
+   {
+    "asset": "OC_LockOnRifle_Erraser_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_Clip_12_LockOnRifle",
+      "type": "ClipSize",
+      "amount": 12.0
+     },
+     {
+      "asset": "Bonus_LockAmount_3_LockOnRifle",
+      "type": "MaxTargets",
+      "amount": 1.3300000429153442
+     }
+    ]
+   },
+   {
+    "asset": "OC_LockOnRifle_Executioner_BB",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_LockOnRate_50P_LockOnRifle",
+      "type": "LockOnTime",
+      "amount": 0.5
+     },
+     {
+      "asset": "Bonus_WPdamageFullLock_LockonRifle",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_MaxLockAmount_50p_LockOnRifle",
+      "type": "MaxTargets",
+      "amount": 0.6600000262260437
+     },
+     {
+      "asset": "Penalty_MaxAmmo_-12_LockOnRifle",
+      "type": null,
+      "amount": -12.0
+     },
+     {
+      "asset": "Penalty_Clip_-12_LockOnRifle",
+      "type": "ClipSize",
+      "amount": -12.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_LockOnRifle_LockExplosions_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_LockExplosions_LockOnRifle",
+      "type": "AoeHitCountThreshhold",
+      "amount": 3.0
+     },
+     {
+      "asset": "Penalty_Damage_10_LockOnRifle",
+      "type": null,
+      "amount": -5.0
+     },
+     {
+      "asset": "Penalty_MaxAmmo_36_LockOnRifle",
+      "type": null,
+      "amount": -36.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_LockOnRifle_Seeker_C",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_AlwaysHit_LockOnRifle",
+      "type": "AlwaysHitTarget",
+      "amount": null
+     },
+     {
+      "asset": "Bonus_LoseLockThreshold_25P_LockOnRifle",
+      "type": "LoseLockOnDegree",
+      "amount": 1.3300000429153442
+     },
+     {
+      "asset": "Bonus_IgnoreBodypartDamageReduction",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_LockedShotsRoF_LockOnRifle",
+      "type": "TimeBetweenLockedShots",
+      "amount": 1.899999976158142
+     },
+     {
+      "asset": "Penalty_Reload_LockOnRifle",
+      "type": "ReloadSpeed",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_LockOnRifle_SlowEnemyOnLock_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_PushSTEOnLock_LockOnRifle",
+      "type": "UseLockOnTargetStatusEffect",
+      "amount": null
+     },
+     {
+      "asset": "Penalty_LockLifetime_LockOnRifle",
+      "type": "MaxLockOnDuration",
+      "amount": 8.0
+     }
+    ]
+   }
+  ],
+  "MicroMissileLauncher": [
+   {
+    "asset": "OC_Bonus_NormalMovementSpeed_MML",
+    "quality": null,
+    "elements": []
+   },
+   {
+    "asset": "OC_MML_AoEDamage_Radius_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_AoERadius_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_AreaDamage_1_MML",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_MML_ChargeMechanism_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_Buckshot_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_ChargeRate_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_NormalMovementSpeed_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_ChargeDamage_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_V_ShotOffset_MML_2",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_H_ShotOffset_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Accuracy_Horizontal_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Accuracy_Vertical_MML",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_MML_ClusterMissiles",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_ClusterMissile_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_ClusterEnabled_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ClipSize_50p_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_MaxAmmo_50p_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_velocity_50P_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_MaxVelocity_50P_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_RateOfFire_Cluster_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_AreaDamage_2x_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_DirectDamage_2x_MML",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_MML_GuidanceCutoff_C",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_DumbfireMissile_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Accuracy_Horizontal_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Accuracy_Vertical_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_RateOfFire_Big_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_DirectDamage_Dumb_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AreaDamage_Dumb_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_MaxAmmo_2x_MML",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_MML_JetFuel_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_InstantSpeed_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_InstantAcceleration_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_DirectDamage_12_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AreaDamage_50p_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_ClipSize_18_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_MaxAmmo_-72_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AoERadius_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Accuracy_HugeVertical_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Accuracy_HugeHorizontal_MML",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_MML_Mines_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_MineHeadMissile_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_NoGuidance_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Accuracy_Horizontal_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Accuracy_Vertical_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_MaxAmmo_-36_MML",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_MML_Penetration_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_PlasmaBursterMissile_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_DirectDamage_5_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AreaDamage_5_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_TurnRate_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Maxspeed_25p_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Butcher_AoERadius_MML_",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_MaxAmmo_-108_MML",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_MML_RoF_Velocity_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_RateOfFire_MML",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_MaxSpeed_20percent_MML",
+      "type": null,
+      "amount": null
+     }
+    ]
+   }
+  ],
+  "MicrowaveGun": [
+   {
+    "asset": "OC_BlisteringNecrosis",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "UPG_BlisteringNecrosis",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_CooldownRate_25p_MG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_HeatPerShot_25p_MG",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_DiffusionRay",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "UPG_CapsuleHitScan_PenetratesEnemies",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_DiffusionSlowSTE_MG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Damage_1_MG",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_LiquidCooler",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_UnjamDuration_02_MG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_CooldownRate_05_MG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_HeatReduction_01_MG",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_MicrowaveGun_GammaContamination",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "UPG_STE_GammaContamination",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Ammo50_MG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Radius_05_MG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Damage_1_MG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "CustomEvent_MG_DecreasedShotWidth",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_GammaContamination",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_MicrowaveGun_MegaPowerSupply",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_ClipSize150_MG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_FasterRoF_3_MG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_CooldownRate_1half_MG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Unjam_1_MG",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_SuperFocusLens",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_ShortRangeMultiplier",
+      "type": null,
+      "amount": null
+     }
+    ]
+   }
+  ],
+  "Pistol": [
+   {
+    "asset": "OC_Pistol_ChainHit_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Ricochet_Pistol",
+      "type": "RicochetChance",
+      "amount": 0.75
+     }
+    ]
+   },
+   {
+    "asset": "OC_Pistol_ClipSize_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ClipSize_Pistol",
+      "type": "ClipSize",
+      "amount": 10.0
+     },
+     {
+      "asset": "OC_Penalty_ReloadSpeed_Pistol",
+      "type": "ReloadSpeed",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Pistol_ExplosiveReload_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ExplosiveReload",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Ammo-50p_Pistol",
+      "type": null,
+      "amount": 0.5
+     },
+     {
+      "asset": "Penalty_ClipSize-50p_Pistol",
+      "type": "ClipSize",
+      "amount": 0.49000000953674316
+     }
+    ]
+   },
+   {
+    "asset": "OC_Pistol_FullAuto_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_FullAuto_Pistol",
+      "type": "ActivateAutomaticFireMode",
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_RoF_Pistol",
+      "type": "RateOfFire",
+      "amount": 2.0
+     },
+     {
+      "asset": "OC_Penalty_Recoil_Pistol",
+      "type": "RecoilMultiplier",
+      "amount": 2.5
+     },
+     {
+      "asset": "OC_Penalty_BaseAccuracy_Pistol",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 1.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Pistol_RandomDamageNew_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Pistol_RandomDamage_C",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_Pistol_TranqDarts_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Penalty_RoF_Pistol",
+      "type": "RateOfFire",
+      "amount": 0.75
+     },
+     {
+      "asset": "Penalty_ClipSize-4_Pistol",
+      "type": "ClipSize",
+      "amount": -4.0
+     },
+     {
+      "asset": "OC_Bonus_StaggerNotJustWeakpont_Pistol",
+      "type": "StaggerOnWeakpointOnly",
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_StaggerChance_Pistol",
+      "type": "StaggerChance",
+      "amount": 0.5
+     },
+     {
+      "asset": "OC_Bonus_TranqSlow",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Bonus_StaggerDuration_Pistol",
+      "type": "StaggerDuration",
+      "amount": 6.0
+     }
+    ]
+   }
+  ],
+  "PlasmaCarbine": [
+   {
+    "asset": "OC_PlasmaCarbine_AmmoReturn_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_AmmoReturn_PlasmaCarbine",
+      "type": "CustomEvent1",
+      "amount": null
+     },
+     {
+      "asset": "Penalty_MaxAmmo_40P_PlasmaCarbine",
+      "type": "ClipSize",
+      "amount": 0.699999988079071
+     },
+     {
+      "asset": "Bonus_OverheatDuration_-20P_PC",
+      "type": "UnJamDuration",
+      "amount": 0.800000011920929
+     }
+    ]
+   },
+   {
+    "asset": "OC_PlasmaCarbine_BigProjectile_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_BigProjectile_PlasmaCarbine",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_SpreadH_4_PlasmaCarbine",
+      "type": "HorizontalSpread",
+      "amount": -4.0
+     },
+     {
+      "asset": "Bonus_SpreadV_4__PlasmaCarbine",
+      "type": null,
+      "amount": -4.0
+     },
+     {
+      "asset": "Penalty_RoF_75Percent_PlasmaCarbine",
+      "type": "RateOfFire",
+      "amount": 0.25
+     },
+     {
+      "asset": "Penalty_Velocity_BigProjectile_75P_PlasmaCarbine",
+      "type": null,
+      "amount": 0.25
+     },
+     {
+      "asset": "Penalty_AmmoCost_PlasmaCarbine",
+      "type": "ShotCost",
+      "amount": 5.0
+     },
+     {
+      "asset": "Penalty_HeatPerShot_200_PlasmaCarbine",
+      "type": "ManualHeatPerUse",
+      "amount": 8.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_PlasmaCarbine_Bouncy_C",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_Bouncy_PlasmaCarbine",
+      "type": "Bouncy",
+      "amount": null
+     },
+     {
+      "asset": "Penalty_RoF_1_PlasmaCarbine",
+      "type": "RateOfFire",
+      "amount": -2.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_PlasmaCarbine_CoolingRateAndLessHeatPerShot_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_CooldownRate_25_PlasmaCarbine",
+      "type": "CooldownRate",
+      "amount": 1.25
+     },
+     {
+      "asset": "Bonus_HeatPerShot_15_PlasmaCarbine",
+      "type": "ManualHeatPerUse",
+      "amount": 0.8500000238418579
+     }
+    ]
+   },
+   {
+    "asset": "OC_PlasmaCarbine_ElementalWeakness",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_DBSTE_ElementalWeakness_PlasmaCarbine",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_HeatPerShot_03_Flat_PlasmaCarbine_2",
+      "type": "ManualHeatPerUse",
+      "amount": 0.016499999910593033
+     },
+     {
+      "asset": "Bonus_DBSTE_TemperatureWeakness_PlasmaCarbine",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_Damage_3_PlasmaCarbine",
+      "type": null,
+      "amount": -3.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_PlasmaCarbine_HeatBuildUpDamage_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_DamageUpgrade_60Heat_PlasmaCarbine",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_DamageUpgrade_70Heat_PlasmaCarbine",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_DamageUpgrade_80Heat_PlasmaCarbine",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_DamageUpgrade_90Heat_PlasmaCarbine",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_OverheatDuration_50Percent_PlasmaCarbine",
+      "type": "UnJamDuration",
+      "amount": 1.2999999523162842
+     },
+     {
+      "asset": "Penalty_HeatPerShot_35Percent_PlasmaCarbine",
+      "type": "ManualHeatPerUse",
+      "amount": 1.2000000476837158
+     },
+     {
+      "asset": "Bonus_HotPlasma_PC",
+      "type": "CustomEvent",
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_PlasmaCarbine_MoreDamageLessAccuracy_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_Damage_8_PlasmaCarbine",
+      "type": null,
+      "amount": 8.0
+     },
+     {
+      "asset": "Penalty_SpreadV_10__PlasmaCarbine",
+      "type": null,
+      "amount": 6.0
+     },
+     {
+      "asset": "Penalty_SpreadH_20_PlasmaCarbine",
+      "type": "HorizontalSpread",
+      "amount": 18.0
+     },
+     {
+      "asset": "Penalty_HeatPerShot_50Percent_PlasmaCarbine",
+      "type": "ManualHeatPerUse",
+      "amount": 1.5
+     },
+     {
+      "asset": "Penalty_Ammo_25Percent_PlasmaCarbine",
+      "type": "ClipSize",
+      "amount": 0.800000011920929
+     }
+    ]
+   },
+   {
+    "asset": "OC_PlasmaCarbine_OverheatAoE_B",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_OverheatAoE_PC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_OverheatDuration_-30Percent_PC",
+      "type": "UnJamDuration",
+      "amount": 0.800000011920929
+     }
+    ]
+   },
+   {
+    "asset": "OC_ShieldVelocityDamage_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_ShieldPlasma_PC",
+      "type": "CustomEvent",
+      "amount": null
+     },
+     {
+      "asset": "Bonus_FlatDamage_FullShield_PC",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Bonus_Velocity_FullShield_PlasmaCarbine",
+      "type": null,
+      "amount": 2.0
+     },
+     {
+      "asset": "Penalty_RemoveShieldOnOverheat_PlasmaCarbine",
+      "type": "RemoveShieldOnOverheat",
+      "amount": null
+     },
+     {
+      "asset": "Penalty_OverheatDuration_100Percent_PlasmaCarbine",
+      "type": "UnJamDuration",
+      "amount": 1.0
+     },
+     {
+      "asset": "Penalty_HeatPerShot_50Percent_PlasmaCarbine",
+      "type": "ManualHeatPerUse",
+      "amount": 1.5
+     },
+     {
+      "asset": "Penalty_CooldownRate_50_PlasmaCarbine",
+      "type": "CooldownRate",
+      "amount": 0.5
+     },
+     {
+      "asset": "Bonus_Ammo_25P_PlasmaCarbine",
+      "type": "ClipSize",
+      "amount": 100.0
+     },
+     {
+      "asset": "Bonus_RoF_10_PlasmaCarbine",
+      "type": "RateOfFire",
+      "amount": 1.0
+     }
+    ]
+   }
+  ],
+  "Revolver": [
+   {
+    "asset": "OC_Revolver_ClipSize_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ClipSize_Revolver",
+      "type": "ClipSize",
+      "amount": 2.0
+     },
+     {
+      "asset": "OC_Bonus_Ammo+10p_Revolver",
+      "type": null,
+      "amount": 6.0
+     },
+     {
+      "asset": "OC_Penalty_BaseAccuracy_Revolver",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 1.5
+     },
+     {
+      "asset": "OC_Bonus_RoF_5_Revolver",
+      "type": "RateOfFire",
+      "amount": 2.0
+     },
+     {
+      "asset": "OC_Penalty_ReloadTime_Revolver",
+      "type": "ReloadSpeed",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Revolver_Damage2x_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Dmage100Percent_Revolver",
+      "type": null,
+      "amount": 2.0
+     },
+     {
+      "asset": "OC_Penalty_RecoilBig_Revolver",
+      "type": "RecoilMultiplier",
+      "amount": 1.5
+     },
+     {
+      "asset": "OC_Penalty_SpreadPerShot6",
+      "type": "SpreadPerShot",
+      "amount": 5.0
+     },
+     {
+      "asset": "OC_Penalty_Ammo12",
+      "type": null,
+      "amount": -12.0
+     },
+     {
+      "asset": "OC_Penalty_RecoilRecovery_Revolver",
+      "type": "RecoilMass",
+      "amount": 3.5
+     },
+     {
+      "asset": "OC_Penalty_MaxSpread",
+      "type": "MaxSpread",
+      "amount": 4.0
+     },
+     {
+      "asset": "OC_Penalty_ClipSize_Revolver",
+      "type": "ClipSize",
+      "amount": -1.0
+     },
+     {
+      "asset": "OC_Penalty_ReloadTime_Revolver",
+      "type": "ReloadSpeed",
+      "amount": 0.5
+     },
+     {
+      "asset": "OC_Bonus_BaseAccuracy_Revolver",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_Revolver_LuckyBullets_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ChainHitChance",
+      "type": "RicochetChance",
+      "amount": 0.75
+     },
+     {
+      "asset": "OC_Bonus_ChainHitWeakpointRule",
+      "type": "RicochetOnWeakspotOnly",
+      "amount": 1.0
+     },
+     {
+      "asset": "OC_Bonus_ChainHitOnlyPawns",
+      "type": "RicochetBehaviourPawnsOnly",
+      "amount": 1.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Revolver_MagicBullets_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Ricochet100_Revovler",
+      "type": "RicochetChance",
+      "amount": 1.0
+     },
+     {
+      "asset": "OC_Bonus_Ammo+8_Revovler",
+      "type": null,
+      "amount": 8.0
+     },
+     {
+      "asset": "OC_Penalty_Damage20",
+      "type": null,
+      "amount": -20.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_Revolver_RandomDamageNew_C",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_RandomDamage_Revovler",
+      "type": null,
+      "amount": null
+     }
+    ]
+   },
+   {
+    "asset": "OC_Revolver_RoF_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_DamageVsBurning_Revolver",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "OC_Penalty_Damage_50p",
+      "type": null,
+      "amount": -10.0
+     }
+    ]
+   }
+  ],
+  "SMG": [
+   {
+    "asset": "OC_SMG_Ammo_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_Ammo_SMG",
+      "type": null,
+      "amount": 180.0
+     },
+     {
+      "asset": "Penalty_RoF2_SMG",
+      "type": "RateOfFire",
+      "amount": -2.0
+     },
+     {
+      "asset": "Penlaty_DMG-1_SMG",
+      "type": null,
+      "amount": -1.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_SMG_ConductorBullets_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_PlasmaBeam_SMG",
+      "type": "PlasmaBeam",
+      "amount": 1.0
+     },
+     {
+      "asset": "Penalty_Ammo-120_SMG",
+      "type": null,
+      "amount": -120.0
+     },
+     {
+      "asset": "Penalty_RoF2_SMG",
+      "type": "RateOfFire",
+      "amount": -2.0
+     },
+     {
+      "asset": "Bonus_ElectrifyPlatform_SMG",
+      "type": "ElectrifyPlatforms",
+      "amount": 1.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_SMG_RoF-new_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_RoF2_SMG",
+      "type": "RateOfFire",
+      "amount": 2.0
+     },
+     {
+      "asset": "Bonus_ReloadTime02_SMG",
+      "type": "ReloadSpeed",
+      "amount": -0.20000000298023224
+     }
+    ]
+   },
+   {
+    "asset": "OC_SMG_RoF_U",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_RoF4_SMG",
+      "type": "RateOfFire",
+      "amount": 4.0
+     },
+     {
+      "asset": "Bonus_ElectricDamage_SMG",
+      "type": null,
+      "amount": null
+     },
+     {
+      "asset": "Penalty_AccuracyBig",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 1.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_SMG_SpreadDampener",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "Bonus_AccuracyPerfect",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 0.30000001192092896
+     },
+     {
+      "asset": "Bonus_SpreadHalved",
+      "type": "MaxSpread",
+      "amount": -2.0
+     },
+     {
+      "asset": "Penalty_RecoilVerticalBig_SMG",
+      "type": "RecoilMultiplierV",
+      "amount": 1.5
+     },
+     {
+      "asset": "Penalty_RecoilMass",
+      "type": "RecoilMass",
+      "amount": 1.5
+     },
+     {
+      "asset": "Bonus_RecoilHorizontalNullified_SMG",
+      "type": "RecoilMultiplierH",
+      "amount": 0.20000000298023224
+     },
+     {
+      "asset": "Penalty_ClipSizeBig_SMG",
+      "type": "ClipSize",
+      "amount": -10.0
+     },
+     {
+      "asset": "Bonus_WeakpointBonus_SMG",
+      "type": "WeakpointDamageMultiplier",
+      "amount": 0.30000001192092896
+     }
+    ]
+   },
+   {
+    "asset": "OC_SMG_SuperSlim_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_ClipSize5_SMG",
+      "type": "ClipSize",
+      "amount": 5.0
+     },
+     {
+      "asset": "Bonus_AccuracySmall_SMG",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 0.800000011920929
+     }
+    ]
+   },
+   {
+    "asset": "OC_SMG_Turret-AoE-Discharge_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_EMPDischarge_SMG",
+      "type": "TurretEMPDischarge",
+      "amount": 1.0
+     },
+     {
+      "asset": "Penlaty_DMG-3_SMG",
+      "type": null,
+      "amount": -2.0
+     },
+     {
+      "asset": "Penalty_ClipSize_SMG",
+      "type": "ClipSize",
+      "amount": -5.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_SMG_Turret-Beam_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "Bonus_PlasmaBeam_SMG",
+      "type": "PlasmaBeam",
+      "amount": 1.0
+     },
+     {
+      "asset": "Penalty_Ammo-120_SMG",
+      "type": null,
+      "amount": -120.0
+     },
+     {
+      "asset": "Penalty_RoF2_SMG",
+      "type": "RateOfFire",
+      "amount": -2.0
+     }
+    ]
+   }
+  ],
+  "SawedOffShotgun": [
+   {
+    "asset": "OC_SawedOff_Accuracy_B",
+    "quality": "Balanced",
+    "elements": [
+     {
+      "asset": "OC_Bonus_HorizontalSpread_SawedOff",
+      "type": "MaxHorizontalSpread",
+      "amount": -25.0
+     },
+     {
+      "asset": "OC_Bonus_Spread_SawedOff",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 0.5
+     },
+     {
+      "asset": "OC_Penalty_AmmoSmall_SawedOff",
+      "type": null,
+      "amount": -4.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_SawedOff_DMG_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_NumPellets1_SawedOff",
+      "type": null,
+      "amount": 1.0
+     },
+     {
+      "asset": "Bonus_Damage1_SawedOff",
+      "type": null,
+      "amount": 1.0
+     }
+    ]
+   },
+   {
+    "asset": "OC_SawedOff_Damage_U",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_Damage8_SawedOff",
+      "type": null,
+      "amount": 8.0
+     },
+     {
+      "asset": "OC_Penalty_Ammo_SawedOff",
+      "type": null,
+      "amount": -10.0
+     },
+     {
+      "asset": "OC_Penalty_ReloadSpeed_SawedOff",
+      "type": "ReloadSpeed",
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_SawedOff_DoubleBarrel_C",
+    "quality": "Unstable",
+    "elements": [
+     {
+      "asset": "OC_Bonus_BurstFire_SawedOff",
+      "type": "ClipSize",
+      "amount": 0.5
+     },
+     {
+      "asset": "OC_Bonus_Dmg-BlastWave_SawedOff",
+      "type": "RadialDamage",
+      "amount": 5.5
+     },
+     {
+      "asset": "OC_Penalty_Recoil_SawedOff",
+      "type": "RecoilMultiplier",
+      "amount": 2.0
+     },
+     {
+      "asset": "OC_Penalty_Spread_SawedOff",
+      "type": "WeaponAccuracySpreadMultiplier",
+      "amount": 1.5
+     },
+     {
+      "asset": "Bonus_NumPellets_2x_SawedOff",
+      "type": null,
+      "amount": 2.0
+     },
+     {
+      "asset": "Pen_Ammo2x_SawefOff",
+      "type": null,
+      "amount": 0.5
+     }
+    ]
+   },
+   {
+    "asset": "OC_SawedOff_MaxAmmo_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "Bonus_Ammo6_SawedOff",
+      "type": null,
+      "amount": 6.0
+     },
+     {
+      "asset": "Bonus_Reload_SawefOff",
+      "type": "ReloadSpeed",
+      "amount": -0.20000000298023224
+     }
+    ]
+   },
+   {
+    "asset": "OC_SawedOff_ShotgunJump_C",
+    "quality": "Clean",
+    "elements": [
+     {
+      "asset": "OC_Bonus_ShotgunJump_SawedOff",
+      "type": "ShotgunJump",
+      "amount": null
+     }
+    ]
+   }
+  ]
+ }
+}

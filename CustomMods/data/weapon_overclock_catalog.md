@@ -1,0 +1,818 @@
+# 武器超频资产目录（自动生成，写 .cw.json 时的速查表）
+
+> 生成：2026-10-04 · 23 武器 · 186 超频 · 元素值解析 350 条
+> 资产名 = Overrides 的键；Amount/UpgradeType = 当前原版值（改之前的参照）
+> None = 该元素是特殊结构（带组件/蓝图引用），不是简单数值，v1 不建议改它
+
+## AssaultRifle
+
+- **OC_AssaultRifle_BurstFire**（Balanced）
+  - `OC_Bonus_DisableFullAuto_AssaultRifle`: ActivateAutomaticFireMode = -1.0
+  - `OC_Bonus_BurstFire_AssaultRifle`: BurstCount = 2.0
+  - `OC_Bonus_BurstFireSpeed_AssaultRifle`: BurstRateOfFire = -19.950000762939453
+  - `OC_Bonus_ClipSize_Burst_AssaultRifle`: ClipSize = 1.1150000095367432
+  - `OC_Penalty_RoF-X_AssaultRifle`: RateOfFire = 0.30000001192092896
+  - `OC_Bonus_Damage_2_AssaultRifle`: None = 2.0
+  - `Bonus_Stun_10_AssaultRifle`: StaggerChance = 0.10000000149011612
+- **OC_AssaultRifle_ClipSize_C**（Clean）
+  - `OC_Bonus_ClipSize5_AssaultRifle`: ClipSize = 5.0
+  - `Bonus_Recoil_AssaultRifle`: RecoilMultiplier = 0.699999988079071
+- **OC_AssaultRifle_ElectricReload_U**（Unstable）
+  - `OC_Bonus_ElectricReload`: None = None
+  - `Penalty_MaxAmmo_AssaultRifle`: None = -60.0
+  - `Penalty_ClipSize5_AssaultRifle`: ClipSize = -10.0
+  - `OC_Bonus_ElectricReload_DMG`: None = None
+  - `OC_Bonus_ElectricReload_Marker`: None = None
+- **OC_AssaultRifle_PerfectStability_U**（Unstable）
+  - `OC_Bonus_NoRecoil_AssaultRifle`: RecoilMultiplier = None
+  - `OC_Bonus_NoShotSpread_AssaultRifle`: SpreadRecoveryMultiplier = 9.0
+  - `OC_Bonus_NoSpreadWhileWalking_AssaultRifle`: MinSpreadWhileMoving = -5.0
+  - `OC_Penalty_Damage-2_AssaultRifle`: None = -1.0
+  - `OC_Penalty_RoF-2_AssaultRifle`: RateOfFire = -2.0
+  - `OC_Bonus_WeakpointDamage_20p_AssaultRifle`: WeakpointDamageMultiplier = 0.5
+- **OC_AssaultRifle_RandomDamage_C**（Clean）
+  - `OC_Bonus_RandomDamage_AssaultRifle`: None = None
+- **OC_AssaultRifle_RoF_B**（Balanced）
+  - `OC_Bonus_RoF+3_AssaultRifle`: RateOfFire = 3.0
+  - `OC_Penalty_Recoil_AssaultRifle`: RecoilMultiplier = 1.0
+- **OC_AssaultRifle_RoFandReload_C**（Clean）
+  - `Bonus_ReloadTime-02_AssaultRifle`: ReloadSpeed = 0.8399999737739563
+  - `OC_Bonus_RoF1_AssaultRifle`: RateOfFire = 1.0
+- **OC_AssaultRifle_VolatileBullets_B**（Balanced）
+  - `OC_Bonus_DamageVsStatusAndState_GK2`: None = None
+  - `Penalty_ClipSize_50p_AssaultRifle`: ClipSize = 0.6000000238418579
+
+## Autocannon
+
+- **OC_Autocannon_DamageBig_U**（Unstable）
+  - `Bonus_Damage10_AC`: None = 12.0
+  - `Bonus_Accuracy_AC`: WeaponAccuracySpreadMultiplier = 0.699999988079071
+  - `Penalty_MaxAmmo-110_AC`: None = -110.0
+  - `Penalty_ClipSize55_AC`: ClipSize = 0.5
+  - `Penalty_MaxFireRate_Big`: MaxFireRate = -1.5
+- **OC_Autocannon_Grenades_B**（Balanced）
+  - `OC_Bonus_RadialRange_percent_Autocannon`: RadialRange = 1.4500000476837158
+  - `OC_Bonus_RadialDamage_4_Autocannon`: RadialDamage = 1.350000023841858
+  - `Penalty_DirectDamage-9_AC`: None = -7.0
+- **OC_Autocannon_MaxAmmo_C**（Clean）
+  - `Bonus_MaxAmmo_AC`: None = 110.0
+  - `Bonus_ReloadTime05_AC`: ReloadSpeed = -0.5
+- **OC_Autocannon_MortarProjectiles_U**（Unstable）
+  - `Bonus_EnableProjecitleLauncher_AutoCannon`: None = None
+  - `Bonus_RadialDamage_28_Autocannon`: RadialDamage = 7.0
+  - `OC_Bonus_RadialRange_25P_Autocannon`: RadialRange = 1.25
+  - `OC_Penalty_Damage_14_Autocannon_`: None = -14.0
+  - `Penalty_StartingFireRate_50P_AutoCannon`: StartingFireRate = 0.4000000059604645
+  - `Penalty_MaxFireRate_50P_Autocannon`: MaxFireRate = 0.5
+  - `Bonus_MortarCrosshair_Autocannon`: CustomEvent1 = None
+  - `Penalty_MaxAmmo_40p_AutoCannon`: None = 0.3179999887943268
+  - `Penalty_ClipSize30P_AC`: ClipSize = 0.3179999887943268
+- **OC_Autocannon_MovementSpeed_B**（Balanced）
+  - `OC_Bonus_MovementSpeed_07_Autocannon`: None = 0.3499999940395355
+  - `Bonus_Accuracy_AC`: WeaponAccuracySpreadMultiplier = 0.699999988079071
+  - `Penalty_ClipSize05_AC`: ClipSize = 0.5
+  - `Bonus_FireRateGrowth_AC`: None = 1.5
+  - `Bonus_StartingFireRate_AC`: StartingFireRate = 0.8999999761581421
+- **OC_Autocannon_Neurotoxin_U**（Unstable）
+  - `OC_Bonus_NeuroToxinAoE_Autocannon`: None = None
+  - `OC_Bonus_RadialRange_200_Autocannon`: RadialRange = 30.0
+  - `Penalty_SplashDamage-4_AC`: RadialDamage = -6.0
+  - `Penalty_MaxAmmo_10P_AC`: None = -110.0
+- **OC_Autocannon_SplashRange_C**（Clean）
+  - `Bonus_RadialRange25_AC`: RadialRange = 30.0
+  - `OC_Bonus_RadialDamage_1_Autocannon`: RadialDamage = 1.0
+
+## BoltActionRifle
+
+- **OC_M1000_Ammo_C1**（Clean）
+  - `OC_Bonus_ClipSize_2`: ClipSize = 1.25
+  - `Bonus_Reload_M1K`: ReloadSpeed = -0.20000000298023224
+- **OC_M1000_FocusDamage_U**（Unstable）
+  - `OC_Bonus_FocusDamage_200P_M1000`: FocusDamageBonus = 1.5
+  - `OC_Penalty_Ammo_20_M1000`: None = 0.6850000023841858
+  - `OC_Penalty_CantMove_M1000`: None = None
+  - `OC_Penalty_FocusSpeed_M1000`: None = 0.6000000238418579
+  - `OC_Penalty_ClipSize`: ClipSize = 0.7300000190734863
+  - `OC_Bonus_FocusWewakpointDMG_M1000`: AimedShotWeakpointDamageBonusMultiplier = 2.0
+- **OC_M1000_FocusElectrocute_U**（Unstable）
+  - `OC_Bonus_FocusSTE_M1000`: FocusedWeakspotHitStatusEffect = None
+  - `OC_Penalty_FocusDamage_50P_M1000`: FocusDamageBonus = -0.25
+- **OC_M1000_FocusWeakening_U**（Unstable）
+  - `OC_Bonus_FocusSpeed_M1000`: None = 0.3100000023841858
+  - `OC_Penalty_ClipSize_2`: ClipSize = -2.0
+  - `OC_Penalty_AimedShotCost_M1000_1`: AimedShotAmmoCost = 1.0
+  - `OC_Penalty_FocusDamage_99P_M1000`: FocusDamageBonus = 0.009999999776482582
+  - `OC_Bonus_CanLaserPoint`: CustomEvent1 = None
+  - `Bonus_FocusSTE_Weakening_Bosses_M1000`: None = None
+  - `Bonus_FocusSTE_Weakening_M1000`: None = None
+- **OC_M1000_Hipster_B**（Balanced）
+  - `OC_Bonus_Recoil_M1000`: RecoilMultiplier = 0.5
+  - `OC_Bonus_SpreadPerShot2_M1000`: SpreadPerShot = -0.30000001192092896
+  - `OC_Bonus_MaxSpread2_M1000`: MaxSpread = 0.8500000238418579
+  - `OC_Bonus_Ammo_20`: None = 1.9129999876022339
+  - `Bonus_RoF_M1000`: RateOfFire = 2.0
+  - `OC_Penalty_Damage_15_M1000`: None = -17.0
+- **OC_M1000_Hoverclock_C**（Clean）
+  - `OC_Bonus_Hoverclock`: NoGravityOnFocus = 1.0
+- **OC_M1000_NoMovementPenalty_B**（Balanced）
+  - `OC_Bonus_NoMovementPenalty_M1000`: None = 0.699999988079071
+  - `OC_Bonus_FocusSpeed_M1000`: None = 0.3100000023841858
+  - `Penalty_Reload_M1K`: ReloadSpeed = 0.5
+
+## BurstFirePistol
+
+- **OC_BRT_AmmoB_B**（Balanced）
+  - `Bonus_TotalAmmo72_BRT`: None = None
+  - `Penalty_RoF-1_BRT`: None = None
+  - `Penalty_ReloadTime_BRT`: None = None
+- **OC_BRT_Ammo_C**（Clean）
+  - `Bonus_TotalAmmo36_BRT`: None = None
+  - `Bonus_BurstDelay1_BRT`: None = None
+- **OC_BRT_BombOnHit_C**（Unstable）
+  - `Bonus_CreateBombOnHit`: None = None
+  - `Penalty_Damage-3_BRT`: None = None
+  - `Penalty_ClipSizeBig_BRT`: None = None
+- **OC_BRT_DamageB_B**（Balanced）
+  - `Bonus_Damage4_BRT`: None = None
+  - `Penalty_ClipSize_BRT`: None = None
+  - `Penalty_TotalAmmo36_BRT`: None = None
+- **OC_BRT_Damage_C**（Clean）
+  - `Bonus_Damage1_BRT`: None = None
+  - `Bonus_ReloadTime_BRT`: None = None
+- **OC_BRT_MicroFlechettes_U**（Unstable）
+  - `Bonus_TotalAmmo144_BRT`: None = None
+  - `Bonus_ClipSizeBig_BRT`: None = None
+  - `Penalty_Damage-11_BRT`: None = None
+  - `Bonus_Recoil25Percent_BRT`: None = None
+  - `Bonus_SpreadPerShot_BRT`: None = None
+- **OC_BRT_RandomDamage_C**（Unstable）
+  - `Bonus_DamageBig_BRT`: None = None
+  - `Penalty_Accuracy_BRT`: None = None
+- **OC_BRT_SmartBullets_U**（Unstable）
+  - `Bounus_DamageOnReload_BRT`: None = None
+  - `Penalty_Damage-3_BRT`: None = None
+  - `Penalty_TotalAmmo72_BRT`: None = None
+
+## ChargeBlaster
+
+- **OC_Bonus_ChargeAoE_DMG_EPC**（?）
+- **OC_Bonus_ChargeCost-2_EPC**（?）
+- **OC_Bonus_ChargeDirectDMG_EPC**（?）
+- **OC_Bonus_ChargeSpeed035_EPC**（?）
+- **OC_Bonus_ChargeSpeed_025_EPC**（?）
+- **OC_Bonus_ChargedDamageRadius_EPC**（?）
+- **OC_Bonus_CoolingRate01_EPC**（?）
+- **OC_Bonus_NormalAoEDamage5_EPC**（?）
+- **OC_Bonus_NormalDamage5_EPC**（?）
+- **OC_Bonus_PersistentExplosion_EPC**（?）
+- **OC_EPC_ChargeCost_B**（Balanced）
+  - `OC_Bonus_ChargeCost-2_EPC`: None = None
+  - `OC_Bonus_ChargeSpeed_025_EPC`: None = None
+  - `OC_Penalty_HeatPerChargedShot_EPC`: None = None
+  - `Penalty_HeatWhileHoldingCharge_EPC`: None = None
+- **OC_EPC_ChargeDirectDMG_U**（Unstable）
+  - `OC_Bonus_ChargeDirectDMG_EPC`: None = None
+  - `OC_Bonus_ChargedDamageRadius_EPC`: None = None
+  - `OC_Bonus_ChargeAoE_DMG_EPC`: None = None
+  - `OC_Penalty_HeatBuildup_EPC`: None = None
+  - `OC_Penalty_ChargeCost_EPC`: None = None
+- **OC_EPC_ChargeTime_C**（Clean）
+  - `OC_Bonus_ChargeSpeed035_EPC`: None = None
+  - `BOnus_Ammo12_EPC`: None = None
+- **OC_EPC_CoolingRate_C**（Clean）
+  - `OC_Bonus_CoolingRate01_EPC`: None = None
+  - `Bonus_LessHeatBuildup_EPC`: None = None
+- **OC_EPC_NormalDamage_B**（Balanced）
+  - `OC_Bonus_NormalDamage5_EPC`: None = None
+  - `OC_Penalty_Ammo_EPC`: None = None
+  - `OC_Penalty_HeatPerNormalShot_EPC`: None = None
+  - `OC_Bonus_NormalAoEDamage5_EPC`: None = None
+- **OC_EPC_PersistentExplosion_U**（Unstable）
+  - `OC_Bonus_PersistentExplosion_EPC`: None = None
+  - `OC_Penalty_ChargedExplosionDamage-20_EPC`: None = None
+  - `OC_Penalty_ChargeDirectDmg_EPC`: None = None
+- **OC_Penalty_Ammo_EPC**（?）
+- **OC_Penalty_ChargeCost_EPC**（?）
+- **OC_Penalty_ChargeDirectDmg_EPC**（?）
+- **OC_Penalty_ChargedExplosionDamage-20_EPC**（?）
+- **OC_Penalty_HeatBuildup_EPC**（?）
+- **OC_Penalty_HeatPerChargedShot_EPC**（?）
+- **OC_Penalty_HeatPerNormalShot_EPC**（?）
+
+## CombatShotgun
+
+- **OC_CombatShotgun_AmmoNew_C**（Clean）
+  - `OC_Bonus_Ammo10_CombatShotgun`: None = 18.0
+  - `OC_Bonus_ReloadSpeed_CombatShotgun`: ReloadSpeed = -0.4000000059604645
+- **OC_CombatShotgun_ClipSize_B**（Clean）
+  - `OC_Bonus_BonusVsStun_CombatShotgun`: None = None
+  - `OC_Bonus_StunAllBodyParts_CombatShotgun`: StaggerOnWeakpointOnly = None
+- **OC_CombatShotgun_MiniShells_U**（Unstable）
+  - `OC_Bonus_Ammo50_CombatShotguin`: None = 78.0
+  - `OC_Bonus_Recoil_CombatSHotgun`: RecoilMultiplier = 0.5
+  - `OC_Bonus_ClipSize-6_CombatShotgun`: ClipSize = 6.0
+  - `OC_Penalty_Damage_2_CombatSHotgun`: None = -2.0
+  - `OC_Penalty_Stagger_CShot`: StaggerChance = -0.10000000149011612
+  - `OC_Penalty_StaggerDuration_CShot`: StaggerDuration = None
+- **OC_CombatShotgun_PumpAction**（Unstable）
+  - `OC_Bonus_Damage+4_CombatShotgun`: None = 5.0
+  - `OC_Bonus_BlowThrough1_CombatShotgun`: MaxPenetrations = 1.0
+  - `OC_Penalty_RoFLarge_CombatShotgun_2`: RateOfFire = 0.44999998807907104
+  - `OC_Penalty_AmmoHalved_CombatShotgun`: None = 0.6700000166893005
+  - `OC_Penalty_ClipSize-2_CombatShotgun`: ClipSize = 0.8299999833106995
+  - `OC_Bonus_PumpAction_CombatShotgun`: CustomEvent1 = None
+  - `OC_Bonus_Pellets_2_CombatShotgun`: None = 2.0
+- **OC_CombatShotgun_RoF_U**（Unstable）
+  - `OC_Bonus_RoF_3_CombatShotgun`: RateOfFire = 2.0
+  - `OC_Bonus_Damage+1_CombatShotgun`: None = 1.0
+  - `OC_Penalty_Spread_2_CombatShotgun`: WeaponAccuracySpreadMultiplier = 1.5
+  - `OC_Penalty_ReloadSpeed_CombatShotgun`: ReloadSpeed = 0.5
+- **OC_CombatShotgun_Spread_B**（Balanced）
+  - `OC_Bonus_Spread_CombatShotgun`: WeaponAccuracySpreadMultiplier = 0.5
+  - `OC_PenaltyExtreme_RoF_CombatShotgun`: RateOfFire = 0.75
+  - `OC_Bonus_WeakPointDamage_CombatShotgun`: WeakpointDamageMultiplier = 0.30000001192092896
+
+## Crossbow
+
+- **OC_Crossbow_BodkinPoints**（Unstable）
+  - `Bonus_Ricochet_Crossbow`: Ricochet = None
+  - `Bonus_AreaRadius_05_Crossbow`: RadialRange = 0.5
+  - `Penalty_DefaultReloadTime`: ReloadTimeDefaultArrow = 1.5
+  - `Penalty_DirectDamageDefault_75_Crossbow`: DamageDefault = -75.0
+- **OC_Crossbow_CryoArrow**（Balanced）
+  - `Bonus_CryoArrow_Crossbow`: None = None
+  - `Penalty_DirectDamageDefault_25_Crossbow`: DamageDefault = -25.0
+  - `Bonus_CryoArrowUpgrade_Crossbow`: CryoArrow = None
+  - `Penalty_AreaDamageDefault_25_Crossbow`: DamageDefault = -25.0
+- **OC_Crossbow_FireArrow**（Balanced）
+  - `Bonus_BurningArrow_Crossbow`: None = None
+  - `Penalty_AreaDamageDefault_25_Crossbow`: DamageDefault = -25.0
+  - `Penalty_DirectDamageDefault_25_Crossbow`: DamageDefault = -25.0
+  - `Bonus_FireArrowUpgrade_Crossbow`: FireArrow = None
+- **OC_Crossbow_QuickFire**（Clean）
+  - `Bonus_ReloadSpeed_Crossbow`: ReloadSpeed = -0.20000000298023224
+  - `Bonus_Velocity_100p_Crossbow`: None = 2.0
+- **OC_Crossbow_Specialist**（Clean）
+  - `Bonus_SpecialAmmo_Crossbow`: IncreaseSpecialAmmo = 1.25
+  - `Bonus_SpecialDuration_Crossbow`: IncreaseSpecialEffectDuration = 1.2999999523162842
+- **OC_Crossbow_Trifork**（Unstable）
+  - `Bonus_Trifork_Crossbow`: Trifork = None
+  - `Bonus_MaxAmmo_20p_Crossbow`: None = 1.2100000381469727
+  - `Penalty_DirectDamageDefault_15p_Crossbow`: DamageDefault = 0.8500000238418579
+  - `Penalty_DefaultReloadTime`: ReloadTimeDefaultArrow = 1.5
+  - `Penalty_DefaultRateOfFire`: RateOfFireDefaultArrow = 0.25
+
+## Cryospray
+
+- **OC_Cryospray_Ammo+PressureDrop_C**（Clean）
+  - `Bonus_Ammo25_Cryo`: ClipSize = 25.0
+  - `Bonus_PressureDropSpeed_Cryo`: None = 0.75
+- **OC_Cryospray_Cooling+Rof_B**（Balanced）
+  - `Bonus_Cooling+1_Cryo`: None = None
+  - `Bonus_RoF_Cryo`: RateOfFire = 0.800000011920929
+  - `Penalty_ChargeTime_Cryo`: ChargeupTime = 0.20000000298023224
+  - `Penalty_PressureGainSpeed_Cryo`: PressureGainMultiplier = 0.5
+- **OC_Cryospray_FastFlow_B**（Balanced）
+  - `Penalty_PDropSpeed_Big_Cryo`: None = 2.25
+  - `Bonu_PRegain_Cryo`: PressureGainMultiplier = 2.700000047683716
+  - `Bonus_RoF2_Cryo`: RateOfFire = 0.800000011920929
+- **OC_Cryospray_IceStorm_U**（Unstable）
+  - `Bonus_DamageVsFrozenMult_Cryo`: None = None
+  - `Bonus_Damage_Cryo`: None = 2.0
+  - `Penalty_Ammo-75_Cryo`: ClipSize = -75.0
+  - `Penalty_Cooling-5_Cryo`: None = None
+  - `Penalty_PressureDropSpeed_Cryo`: None = 1.5
+- **OC_Cryospray_Icicle_U**（Balanced）
+  - `OC_Bonus_Icicle`: None = None
+  - `Penalty_REpressureDelay_+08_Cryo`: RePressurisationTime = 1.0
+- **OC_Cryospray_Snowball_U**（Unstable）
+  - `OC_Bonus_Snowball`: None = None
+  - `Penalty_REpressureDelay_+2_Cryo`: RePressurisationTime = 1.0
+  - `Penalty_Ammo-50_Cryo`: ClipSize = -100.0
+- **OC_StickyCrystals_U**（Balanced）
+  - `Bonus_StickyCrystals_Cryo`: None = None
+  - `Penalty_Ammo_20P_Cryo`: ClipSize = 0.800000011920929
+
+## DualMachinePistols
+
+- **OC_DualMP_CryoMines_U**（Unstable）
+  - `Bonus_CreateBombOnHit_DualMP`: None = None
+  - `Penalty_Dmg-1_DualMP_2`: None = -1.0
+  - `Penalty_ClipSize-10_DualMP`: ClipSize = -10.0
+- **OC_DualMP_CustomCasings_B**（Balanced）
+  - `Bonuis_ClipSize15_DualMP`: ClipSize = 30.0
+  - `Penalty_RoF_DualMP`: RateOfFire = -2.0
+- **OC_DualMP_Damage_U**（Unstable）
+  - `Bonus_DmgBig_DualMP`: None = 6.0
+  - `Penalty_Accuracy_DualMP`: WeaponAccuracySpreadMultiplier = 1.5
+  - `Penalty_MovmentSpeed_DualMP`: None = 0.5
+  - `Penalty_NoWeakspotBonus_DualMP`: WeakpointDamageMultiplier = None
+  - `Bonus_ArmorBreak_DualMP`: ArmorDamageMultiplier = 2.5
+- **OC_DualMP_ExplosiveReload**（Unstable）
+  - `Bonus_ExplosiveReload_DualMP`: None = None
+  - `Penalty_Ammo-75_DualMP`: None = -400.0
+  - `Penalty_Dmg-3_DualMP`: None = -6.0
+  - `Penalty_ClipSize-50p_DualMP`: ClipSize = -20.0
+- **OC_DualMP_ReloadSpeed_C**（Clean）
+  - `Bonus_ReloadTime_DualMP`: ReloadSpeed = -0.4000000059604645
+  - `Bonus_RoF+1_DualMp`: RateOfFire = 1.0
+
+## FlameThrower
+
+- **OC_Flamethrower_ClipSize_B**（Balanced）
+  - `OC_Bonus_ClipSize_25_Flamethrower`: ClipSize = 25.0
+  - `Bonus_Ammo+100_Flamethrower`: None = 75.0
+  - `OC_Penalty_Reload_Flamethrower`: ReloadSpeed = 0.20000000298023224
+  - `OC_Penalty_Reach_200_Flamethrower`: LongReach = -200.0
+- **OC_Flamethrower_DMG_U**（Unstable）
+  - `Bonus_DMG+3_Flamethrower`: None = 4.0
+  - `Bonus_RoF_Flamethrower`: RateOfFire = 1.7999999523162842
+  - `Penalty_ClipSize_15_Flamethrower`: ClipSize = -15.0
+  - `OC_Penalty_Reach_300_Flamethrower`: LongReach = -300.0
+- **OC_Flamethrower_Hellfire_U**（Unstable）
+  - `OC_Bonus_Hellfire_Flamethrower`: None = None
+  - `Penalty_AmmoCostHellfire_Flamethrower`: CustomEvent1 = None
+  - `Bonus_InfernoCrosshair_Flamethrower`: CustomEvent1 = None
+- **OC_Flamethrower_MaxAmmo_C**（Clean）
+  - `Bonus_Ammo+75_Flamethrower`: None = 75.0
+- **OC_Flamethrower_Range_B**（Balanced）
+  - `OC_Bonus_Reach_500_Flamethrower`: LongReach = 500.0
+  - `OC_Penalty_RoF_2_Flamethrower`: RateOfFire = -1.2000000476837158
+- **OC_Flamethrower_StickyDuration_U**（Unstable）
+  - `OC_Bonus_StickyDuration_6_Flamethrower`: None = 6.0
+  - `Bonus_StickyDamage_Flamethrower`: None = None
+  - `Penalty_ClipSize_25_Flamethrower`: ClipSize = -25.0
+  - `Penalty_Ammo-75_Flamethrower`: None = -75.0
+- **OC_Flamethrower_StickyFlameDuration_C**（Clean）
+  - `BOnus_StickyDuration+1`: None = 1.0
+  - `Bonus_Dmg+1_Flamethrower`: None = 1.0
+
+## GatlingGun
+
+- **OC_Gatling_AmmoNew_C**（Clean）
+  - `OC_Bonus_Ammo300_Gatling`: ClipSize = 300.0
+  - `Bonus_CoolingRate_Gatling`: CooldownRate = 0.5
+- **OC_Gatling_Ammo_B**（Balanced）
+  - `OC_Bonus_Ammo_800`: ClipSize = 800.0
+  - `OC_Penalty_RoF_2`: RateOfFire = -2.0
+- **OC_Gatling_DamageB_B**（Balanced）
+  - `OC_Bonus_Damage_2`: None = 2.0
+  - `OC_Penalty_Accuracy3`: WeaponAccuracySpreadMultiplier = 2.5
+- **OC_Gatling_DamageNew_C**（Clean）
+  - `OC_Bonus_Damage1`: None = 1.0
+  - `Bonus_SpinupTime-02_Gatling`: None = -0.20000000298023224
+- **OC_Gatling_Damage_U**（Unstable）
+  - `OC_Bonus_Damage_5`: None = 4.0
+  - `OC_Penalty_MovmentSpeed_0`: None = None
+  - `OC_Penalty_NoStagger`: StaggerChance = 0.25
+  - `OC_Penalty_NoStaggerDurration`: StaggerDuration = 0.5
+- **OC_Gatling_Flame_B**（Balanced）
+  - `OC_Bonus_BarrelProximityDamage`: BarrelProximityDamage = None
+  - `OC_Penalty_HeatupRate_2x`: HeatUpRateModifier = 1.5
+- **OC_Gatling_Ricochet_U**（Unstable）
+  - `OC_Bonus_Ricochet_Gatling`: RicochetChance = 0.75
+  - `OC_Penalty_Damage3`: None = -3.0
+  - `OC_Penalty_Accuracy6`: WeaponAccuracySpreadMultiplier = 6.0
+- **OC_Gatling_SuperCooling**（Balanced）
+  - `Bonus_ManualCooldownOnReload_Gatling`: HeatReductionOnReload = 12.0
+  - `OC_Bonus_RoF_GatlingGun`: RateOfFire = 3.0
+  - `OC_Penalty_HeatupRate_100p_GatlingGun`: HeatUpRateModifier = 1.75
+
+## GooCannon
+
+- **OC_GC_Disperser_B**（Balanced）
+  - `Bonus_FragmentAmount_GooCannon`: FragmentCount = 6.0
+  - `Bonus_FragmentDamageNormal_GooCannon`: RadialDamage = 4.0
+  - `Penalty_ChargedShotDamage_20_GooCannon`: RadialDamage = -24.0
+- **OC_GC_GooTrail_U**（Unstable）
+  - `Bonus_TrailShot_GooCannon`: None = None
+  - `Bonus_FragmentDamageSmall_GooCannon`: RadialDamage = 4.0
+  - `Bonus_FragmentAmount2_GC`: FragmentCount = 1.5
+  - `Bonus_PuddleLifeTimeBig_GooCannon`: None = 1.3300000429153442
+- **OC_GC_GravityAndVelocity_C**（Clean）
+  - `Bonus_InreaseVelocity_10p_GC`: None = 0.30000001192092896
+  - `Bonus_ReduceGravity_GooCannon`: GravityScale = 0.25
+  - `Bonus_ArcStartAngle_GooCannon`: ArcStartAngle = -6.0
+- **OC_GC_HydrogenIon_C**（Clean）
+  - `Bonus_PoisonDamageSmall_GooCannon`: None = None
+  - `Bonus_SlowdownSmall_GooCannon`: None = None
+- **OC_GC_ImpactMixture_B**（Balanced）
+  - `Bonus_NormalShotDamage_GC`: RadialDamage = 2.0
+  - `Bonus_ChargedShotDamage_GC`: RadialDamage = 2.0
+  - `Penalty_STEDuration_GC`: None = 0.5
+  - `Penalty_PuddleLifeTime_GooCannon`: None = 0.75
+- **OC_GC_Stabilizer_C**（Clean）
+  - `Bonus_PuddleLifeTime_GooCannon`: None = 2.0
+- **OC_GC_VolatilePuddles_U**（Balanced）
+  - `Bonus_Volatile_Puddles_GooCannon`: CustomEvent1 = None
+  - `Bonus_ExplosiveGoo_GooCannon`: None = None
+  - `Penalty_ChargeCost_2_GooCannon`: ShotCostCharged = 2.0
+- **OC_GooCannon_Buckshot2_U**（Unstable）
+  - `Bonus_Buckshot_Enabled_GooCannon`: CustomEvent1 = None
+  - `Bonus_BuckshotProjectile_GC`: None = None
+  - `Bonus_ChargeShotCount_GooCannon`: ChargeShotCount = 1.0
+  - `Bonus_BuckshotVelocity_GC`: None = 1.0
+  - `Bonus_BuckshotDamage`: RadialDamage = 0.5
+  - `Penalty_ReloadSpeed_GC`: ReloadSpeed = 0.6000000238418579
+  - `Penalty_MaxAmmo_20P_GC`: None = -40.0
+
+## GrenadeLauncher
+
+- **OC_PGL_AmmoB_B**（Balanced）
+  - `Bonus_Ammo4_PGL`: None = None
+  - `Penalty_Radius-50_PGL`: None = None
+  - `Penalty_AoEDamage-10_PGL`: None = None
+- **OC_PGL_Ammo_C**（Clean）
+  - `Bonus_Ammo2_PGL`: None = None
+- **OC_PGL_MiniNukes_U**（Unstable）
+  - `Bonus_Radius_100_PGL`: None = None
+  - `Bonus_Damage300Percent_PGL`: None = None
+  - `Penalty_ProjectileSpeed075_PGL`: None = None
+  - `Penalty_Ammo-80p_PGL`: None = None
+  - `Bonus_RadiationArea_PGL`: None = None
+- **OC_PGL_Radius_C**（Clean）
+  - `Bonus_Radius50_PGL`: None = None
+  - `Bonus_AoEDamage-10_PGL`: None = None
+- **OC_PGL_RocketJump_B**（Balanced）
+  - `Bonus_RocketJump_PGL`: None = None
+  - `Bonus_ReloadSpeed_PGL`: None = None
+  - `Penalty_AoEDamage-30_PGL`: None = None
+  - `Bonus_Ammo7_PGL`: None = None
+- **OC_PGL_SuperFast_U**（Unstable）
+  - `Bonus_CrazyProjectileSpeed_PGL`: None = None
+  - `Bonus_DirectDMG_PGL`: None = None
+  - `Penalty_Ammo-2_PGL`: None = None
+  - `Penalty_Radius-150_PGL_2`: None = None
+  - `Special_Disintegration`: None = None
+  - `Bonus_HyperImpact`: None = None
+  - `Special_HyperCrosshair`: None = None
+  - `Special_HyperRecoil`: None = None
+  - `Special_HyperRecoil_Mass`: None = None
+
+## HeavyParticleCannon
+
+- **OC_HPC_Bonus_BulkyBeam**（?）
+- **OC_HPC_Bonus_RadialDamagePerSecond**（?）
+- **OC_HPC_Bonus_RadialRangePerSecond**（?）
+- **OC_HPC_Bonus_ReloadActivatesBooster**（?）
+- **OC_HPC_Penalty_Clipsize15**（?）
+- **OC_HPC_Penalty_Clipsize30**（?）
+- **OC_HPC_Penalty_MaxAmmo250**（?）
+- **OC_HPC_Penalty_ReloadTime_2_HPC**（?）
+- **OC_HPC_PlatformExplodes**（?）
+- **OC_HPC_ReloadOnRelease**（?）
+- **OC_HeavyParticleCannon_FeedbackLoop**（Balanced）
+  - `OC_HPC_Bonus_RadialDamagePerSecond`: None = None
+  - `OC_HPC_Bonus_RadialRangePerSecond`: None = None
+  - `OC_HPC_Penalty_MaxAmmo250`: None = None
+- **OC_HeavyParticleCannon_ForcedBeam**（Balanced）
+  - `OC_HPC_ReloadOnRelease`: None = None
+  - `OC_HPC_Penalty_Clipsize30`: None = None
+  - `Bonus_BurstSpeed_HPC`: None = None
+  - `Bonus_MaxAmmo_100_HPC`: None = None
+  - `Bonus_Chargetime__025_HPC`: None = None
+- **OC_HeavyParticleCannon_ProjectionModule**（Unstable）
+  - `Bonus_HPC_ProjectionModule`: None = None
+  - `OC_HPC_Penalty_ReloadTime_2_HPC`: None = None
+  - `OC_HPC_PlatformExplodes`: None = None
+  - `Penalty_MaxAmmo_60_HPC`: None = None
+- **OC_HeavyParticleCannon_RapidCycle**（Clean）
+  - `Bonus_Clip_30_HPC`: None = None
+  - `Bonus_MaxAmmo_50_HPC`: None = None
+- **OC_HeavyParticleCannon_ReloadActivatesBooster**（Unstable）
+  - `OC_HPC_Bonus_ReloadActivatesBooster`: None = None
+- **OC_HeavyParticleCannon_VolatileImpact**（Balanced）
+  - `OC_HPC_Bonus_BulkyBeam`: None = None
+  - `Penalty_AoERange_25_HPC`: None = None
+  - `OC_HPC_Penalty_Clipsize15`: None = None
+
+## LineCutter
+
+- **OC_LineCutter_Ammo_C**（Clean）
+  - `Bonus_Ammo4_LineCutter`: None = 3.0
+  - `Bonus_ReloadTime-02_LineCutter`: ReloadSpeed = -0.20000000298023224
+- **OC_LineCutter_DMG+1_C**（Clean）
+  - `Bonus_DMG+1_LineCutter`: None = 1.0
+  - `Bonus_Lifetime_LineCutter`: Lifetime = 0.5
+- **OC_LineCutter_ElectricSTE_B**（Balanced）
+  - `Bonus_ElectrocuteSTE_LineCutter`: None = None
+  - `Penalty_ClipSize_LineCutter`: ClipSize = 0.6000000238418579
+- **OC_LineCutter_FireDamage_U**（Unstable）
+  - `Bonus_HeatDamage_75P-conversion`: None = None
+  - `Penalty_ArmorDmg_x05_LineCutter`: ArmorDamageMultiplier = 0.25
+  - `Penalty_DMG-ForBurning_LineCutter`: None = -3.5
+  - `Bonus_FireSTE_LineCutter`: None = None
+  - `Bonus_HeatSTE_LineCutter`: None = None
+- **OC_LineCutter_ReverseIt_B**（Balanced）
+  - `OC_Bonus_ReverseIt`: None = 1.0
+  - `Penalty_Ammo-4_LineCutter`: None = -6.0
+- **OC_LineCutter_RollControl_C**（Clean）
+  - `OC_Bonus_Homing`: Homing = 5000.0
+  - `Bonus_Lifetime_LineCutter`: Lifetime = 0.5
+- **OC_LineCutter_YawMan_U**（Unstable）
+  - `OC_Bonus_YawMan`: Yawing = 720.0
+  - `Penalty_AmmoBig_Linecutter`: None = 0.6499999761581421
+  - `Penalty_ClipsizeBig_Linecutter`: ClipSize = 0.30000001192092896
+  - `YawMan_Lifetime_LineCutter`: Lifetime = 2.5
+  - `YawMan__Linesize_LineCutter`: LineSizeAdd = 150.0
+  - `Penalty_DMGBig_LineCutter`: None = 0.23999999463558197
+  - `Penalty_DMGInitial_LineCutter`: None = None
+
+## LockOnRifle
+
+- **OC_LockOnRifle_ArmorBreaking_C**（Clean）
+  - `Bonus_FullLock_ArmorBreak_LockOnRifle`: None = None
+- **OC_LockOnRifle_Automatic_B**（Unstable）
+  - `OC_Bonus_AutoShoot_LockOnRifle`: None = None
+  - `OC_Bonus_LockOnRate_LockOnRifle`: LockOnTime = 0.05000000074505806
+  - `OC_Bonus_LockedROF_LockOnRifle`: TimeBetweenLockedShots = 0.009999999776482582
+  - `Bonus_LockOnRateOfFireModifier_LockOnRifle`: RateOfFireLockedOnModifier = 20.0
+  - `OC_Penalty_LockAmount_LockOnRifle`: MaxTargets = 0.20000000298023224
+- **OC_LockOnRifle_Erraser_C**（Clean）
+  - `Bonus_Clip_12_LockOnRifle`: ClipSize = 12.0
+  - `Bonus_LockAmount_3_LockOnRifle`: MaxTargets = 1.3300000429153442
+- **OC_LockOnRifle_Executioner_BB**（Unstable）
+  - `Bonus_LockOnRate_50P_LockOnRifle`: LockOnTime = 0.5
+  - `Bonus_WPdamageFullLock_LockonRifle`: None = None
+  - `Penalty_MaxLockAmount_50p_LockOnRifle`: MaxTargets = 0.6600000262260437
+  - `Penalty_MaxAmmo_-12_LockOnRifle`: None = -12.0
+  - `Penalty_Clip_-12_LockOnRifle`: ClipSize = -12.0
+- **OC_LockOnRifle_LockExplosions_B**（Balanced）
+  - `Bonus_LockExplosions_LockOnRifle`: AoeHitCountThreshhold = 3.0
+  - `Penalty_Damage_10_LockOnRifle`: None = -5.0
+  - `Penalty_MaxAmmo_36_LockOnRifle`: None = -36.0
+- **OC_LockOnRifle_Seeker_C**（Balanced）
+  - `Bonus_AlwaysHit_LockOnRifle`: AlwaysHitTarget = None
+  - `Bonus_LoseLockThreshold_25P_LockOnRifle`: LoseLockOnDegree = 1.3300000429153442
+  - `Bonus_IgnoreBodypartDamageReduction`: None = None
+  - `Penalty_LockedShotsRoF_LockOnRifle`: TimeBetweenLockedShots = 1.899999976158142
+  - `Penalty_Reload_LockOnRifle`: ReloadSpeed = 0.5
+- **OC_LockOnRifle_SlowEnemyOnLock_B**（Balanced）
+  - `Bonus_PushSTEOnLock_LockOnRifle`: UseLockOnTargetStatusEffect = None
+  - `Penalty_LockLifetime_LockOnRifle`: MaxLockOnDuration = 8.0
+
+## MicroMissileLauncher
+
+- **OC_Bonus_NormalMovementSpeed_MML**（?）
+- **OC_MML_AoEDamage_Radius_C**（Clean）
+  - `Bonus_AoERadius_MML`: None = None
+  - `Bonus_AreaDamage_1_MML`: None = None
+- **OC_MML_ChargeMechanism_U**（Unstable）
+  - `Bonus_Buckshot_MML`: None = None
+  - `Bonus_ChargeRate_MML`: None = None
+  - `OC_Bonus_NormalMovementSpeed_MML`: None = None
+  - `Bonus_ChargeDamage_MML`: None = None
+  - `Bonus_V_ShotOffset_MML_2`: None = None
+  - `Bonus_H_ShotOffset_MML`: None = None
+  - `Bonus_Accuracy_Horizontal_MML`: None = None
+  - `Bonus_Accuracy_Vertical_MML`: None = None
+- **OC_MML_ClusterMissiles**（Unstable）
+  - `Bonus_ClusterMissile_MML`: None = None
+  - `Bonus_ClusterEnabled_MML`: None = None
+  - `Penalty_ClipSize_50p_MML`: None = None
+  - `Penalty_MaxAmmo_50p_MML`: None = None
+  - `Penalty_velocity_50P_MML`: None = None
+  - `Penalty_MaxVelocity_50P_MML`: None = None
+  - `Penalty_RateOfFire_Cluster_MML`: None = None
+  - `Bonus_AreaDamage_2x_MML`: None = None
+  - `Bonus_DirectDamage_2x_MML`: None = None
+- **OC_MML_GuidanceCutoff_C**（Unstable）
+  - `Bonus_DumbfireMissile_MML`: None = None
+  - `Bonus_Accuracy_Horizontal_MML`: None = None
+  - `Bonus_Accuracy_Vertical_MML`: None = None
+  - `Bonus_RateOfFire_Big_MML`: None = None
+  - `Penalty_DirectDamage_Dumb_MML`: None = None
+  - `Penalty_AreaDamage_Dumb_MML`: None = None
+  - `Bonus_MaxAmmo_2x_MML`: None = None
+- **OC_MML_JetFuel_U**（Unstable）
+  - `Bonus_InstantSpeed_MML`: None = None
+  - `Bonus_InstantAcceleration_MML`: None = None
+  - `Bonus_DirectDamage_12_MML`: None = None
+  - `Penalty_AreaDamage_50p_MML`: None = None
+  - `Penalty_ClipSize_18_MML`: None = None
+  - `Penalty_MaxAmmo_-72_MML`: None = None
+  - `Penalty_AoERadius_MML`: None = None
+  - `Bonus_Accuracy_HugeVertical_MML`: None = None
+  - `Bonus_Accuracy_HugeHorizontal_MML`: None = None
+- **OC_MML_Mines_B**（Balanced）
+  - `Bonus_MineHeadMissile_MML`: None = None
+  - `Penalty_NoGuidance_MML`: None = None
+  - `Bonus_Accuracy_Horizontal_MML`: None = None
+  - `Bonus_Accuracy_Vertical_MML`: None = None
+  - `Penalty_MaxAmmo_-36_MML`: None = None
+- **OC_MML_Penetration_B**（Balanced）
+  - `Bonus_PlasmaBursterMissile_MML`: None = None
+  - `Penalty_DirectDamage_5_MML`: None = None
+  - `Penalty_AreaDamage_5_MML`: None = None
+  - `Bonus_TurnRate_MML`: None = None
+  - `Penalty_Maxspeed_25p_MML`: None = None
+  - `Penalty_Butcher_AoERadius_MML_`: None = None
+  - `Penalty_MaxAmmo_-108_MML`: None = None
+- **OC_MML_RoF_Velocity_C**（Clean）
+  - `Bonus_RateOfFire_MML`: None = None
+  - `Bonus_MaxSpeed_20percent_MML`: None = None
+
+## MicrowaveGun
+
+- **OC_BlisteringNecrosis**（Unstable）
+  - `UPG_BlisteringNecrosis`: None = None
+  - `Penalty_CooldownRate_25p_MG`: None = None
+  - `Penalty_HeatPerShot_25p_MG`: None = None
+- **OC_DiffusionRay**（Balanced）
+  - `UPG_CapsuleHitScan_PenetratesEnemies`: None = None
+  - `Bonus_DiffusionSlowSTE_MG`: None = None
+  - `Penalty_Damage_1_MG`: None = None
+- **OC_LiquidCooler**（Clean）
+  - `Bonus_UnjamDuration_02_MG`: None = None
+  - `Bonus_CooldownRate_05_MG`: None = None
+  - `Bonus_HeatReduction_01_MG`: None = None
+- **OC_MicrowaveGun_GammaContamination**（Unstable）
+  - `UPG_STE_GammaContamination`: None = None
+  - `Penalty_Ammo50_MG`: None = None
+  - `Penalty_Radius_05_MG`: None = None
+  - `Penalty_Damage_1_MG`: None = None
+  - `CustomEvent_MG_DecreasedShotWidth`: None = None
+  - `Bonus_GammaContamination`: None = None
+- **OC_MicrowaveGun_MegaPowerSupply**（Balanced）
+  - `Bonus_ClipSize150_MG`: None = None
+  - `Bonus_FasterRoF_3_MG`: None = None
+  - `Penalty_CooldownRate_1half_MG`: None = None
+  - `Penalty_Unjam_1_MG`: None = None
+- **OC_SuperFocusLens**（Clean）
+  - `Bonus_ShortRangeMultiplier`: None = None
+
+## Pistol
+
+- **OC_Pistol_ChainHit_C**（Clean）
+  - `OC_Bonus_Ricochet_Pistol`: RicochetChance = 0.75
+- **OC_Pistol_ClipSize_B**（Balanced）
+  - `OC_Bonus_ClipSize_Pistol`: ClipSize = 10.0
+  - `OC_Penalty_ReloadSpeed_Pistol`: ReloadSpeed = 0.5
+- **OC_Pistol_ExplosiveReload_U**（Unstable）
+  - `OC_Bonus_ExplosiveReload`: None = None
+  - `Penalty_Ammo-50p_Pistol`: None = 0.5
+  - `Penalty_ClipSize-50p_Pistol`: ClipSize = 0.49000000953674316
+- **OC_Pistol_FullAuto_U**（Unstable）
+  - `OC_Bonus_FullAuto_Pistol`: ActivateAutomaticFireMode = None
+  - `OC_Bonus_RoF_Pistol`: RateOfFire = 2.0
+  - `OC_Penalty_Recoil_Pistol`: RecoilMultiplier = 2.5
+  - `OC_Penalty_BaseAccuracy_Pistol`: WeaponAccuracySpreadMultiplier = 1.0
+- **OC_Pistol_RandomDamageNew_C**（Clean）
+  - `OC_Bonus_Pistol_RandomDamage_C`: None = None
+- **OC_Pistol_TranqDarts_U**（Unstable）
+  - `OC_Penalty_RoF_Pistol`: RateOfFire = 0.75
+  - `Penalty_ClipSize-4_Pistol`: ClipSize = -4.0
+  - `OC_Bonus_StaggerNotJustWeakpont_Pistol`: StaggerOnWeakpointOnly = None
+  - `OC_Bonus_StaggerChance_Pistol`: StaggerChance = 0.5
+  - `OC_Bonus_TranqSlow`: None = None
+  - `OC_Bonus_StaggerDuration_Pistol`: StaggerDuration = 6.0
+
+## PlasmaCarbine
+
+- **OC_PlasmaCarbine_AmmoReturn_B**（Balanced）
+  - `Bonus_AmmoReturn_PlasmaCarbine`: CustomEvent1 = None
+  - `Penalty_MaxAmmo_40P_PlasmaCarbine`: ClipSize = 0.699999988079071
+  - `Bonus_OverheatDuration_-20P_PC`: UnJamDuration = 0.800000011920929
+- **OC_PlasmaCarbine_BigProjectile_B**（Balanced）
+  - `Bonus_BigProjectile_PlasmaCarbine`: None = None
+  - `Bonus_SpreadH_4_PlasmaCarbine`: HorizontalSpread = -4.0
+  - `Bonus_SpreadV_4__PlasmaCarbine`: None = -4.0
+  - `Penalty_RoF_75Percent_PlasmaCarbine`: RateOfFire = 0.25
+  - `Penalty_Velocity_BigProjectile_75P_PlasmaCarbine`: None = 0.25
+  - `Penalty_AmmoCost_PlasmaCarbine`: ShotCost = 5.0
+  - `Penalty_HeatPerShot_200_PlasmaCarbine`: ManualHeatPerUse = 8.0
+- **OC_PlasmaCarbine_Bouncy_C**（Balanced）
+  - `Bonus_Bouncy_PlasmaCarbine`: Bouncy = None
+  - `Penalty_RoF_1_PlasmaCarbine`: RateOfFire = -2.0
+- **OC_PlasmaCarbine_CoolingRateAndLessHeatPerShot_C**（Clean）
+  - `Bonus_CooldownRate_25_PlasmaCarbine`: CooldownRate = 1.25
+  - `Bonus_HeatPerShot_15_PlasmaCarbine`: ManualHeatPerUse = 0.8500000238418579
+- **OC_PlasmaCarbine_ElementalWeakness**（Balanced）
+  - `Bonus_DBSTE_ElementalWeakness_PlasmaCarbine`: None = None
+  - `Penalty_HeatPerShot_03_Flat_PlasmaCarbine_2`: ManualHeatPerUse = 0.016499999910593033
+  - `Bonus_DBSTE_TemperatureWeakness_PlasmaCarbine`: None = None
+  - `Penalty_Damage_3_PlasmaCarbine`: None = -3.0
+- **OC_PlasmaCarbine_HeatBuildUpDamage_U**（Unstable）
+  - `Bonus_DamageUpgrade_60Heat_PlasmaCarbine`: None = None
+  - `Bonus_DamageUpgrade_70Heat_PlasmaCarbine`: None = None
+  - `Bonus_DamageUpgrade_80Heat_PlasmaCarbine`: None = None
+  - `Bonus_DamageUpgrade_90Heat_PlasmaCarbine`: None = None
+  - `Penalty_OverheatDuration_50Percent_PlasmaCarbine`: UnJamDuration = 1.2999999523162842
+  - `Penalty_HeatPerShot_35Percent_PlasmaCarbine`: ManualHeatPerUse = 1.2000000476837158
+  - `Bonus_HotPlasma_PC`: CustomEvent = None
+- **OC_PlasmaCarbine_MoreDamageLessAccuracy_U**（Unstable）
+  - `Bonus_Damage_8_PlasmaCarbine`: None = 8.0
+  - `Penalty_SpreadV_10__PlasmaCarbine`: None = 6.0
+  - `Penalty_SpreadH_20_PlasmaCarbine`: HorizontalSpread = 18.0
+  - `Penalty_HeatPerShot_50Percent_PlasmaCarbine`: ManualHeatPerUse = 1.5
+  - `Penalty_Ammo_25Percent_PlasmaCarbine`: ClipSize = 0.800000011920929
+- **OC_PlasmaCarbine_OverheatAoE_B**（Clean）
+  - `Bonus_OverheatAoE_PC`: None = None
+  - `Bonus_OverheatDuration_-30Percent_PC`: UnJamDuration = 0.800000011920929
+- **OC_ShieldVelocityDamage_U**（Unstable）
+  - `Bonus_ShieldPlasma_PC`: CustomEvent = None
+  - `Bonus_FlatDamage_FullShield_PC`: None = None
+  - `Bonus_Velocity_FullShield_PlasmaCarbine`: None = 2.0
+  - `Penalty_RemoveShieldOnOverheat_PlasmaCarbine`: RemoveShieldOnOverheat = None
+  - `Penalty_OverheatDuration_100Percent_PlasmaCarbine`: UnJamDuration = 1.0
+  - `Penalty_HeatPerShot_50Percent_PlasmaCarbine`: ManualHeatPerUse = 1.5
+  - `Penalty_CooldownRate_50_PlasmaCarbine`: CooldownRate = 0.5
+  - `Bonus_Ammo_25P_PlasmaCarbine`: ClipSize = 100.0
+  - `Bonus_RoF_10_PlasmaCarbine`: RateOfFire = 1.0
+
+## Revolver
+
+- **OC_Revolver_ClipSize_B**（Balanced）
+  - `OC_Bonus_ClipSize_Revolver`: ClipSize = 2.0
+  - `OC_Bonus_Ammo+10p_Revolver`: None = 6.0
+  - `OC_Penalty_BaseAccuracy_Revolver`: WeaponAccuracySpreadMultiplier = 1.5
+  - `OC_Bonus_RoF_5_Revolver`: RateOfFire = 2.0
+  - `OC_Penalty_ReloadTime_Revolver`: ReloadSpeed = 0.5
+- **OC_Revolver_Damage2x_U**（Unstable）
+  - `OC_Bonus_Dmage100Percent_Revolver`: None = 2.0
+  - `OC_Penalty_RecoilBig_Revolver`: RecoilMultiplier = 1.5
+  - `OC_Penalty_SpreadPerShot6`: SpreadPerShot = 5.0
+  - `OC_Penalty_Ammo12`: None = -12.0
+  - `OC_Penalty_RecoilRecovery_Revolver`: RecoilMass = 3.5
+  - `OC_Penalty_MaxSpread`: MaxSpread = 4.0
+  - `OC_Penalty_ClipSize_Revolver`: ClipSize = -1.0
+  - `OC_Penalty_ReloadTime_Revolver`: ReloadSpeed = 0.5
+  - `OC_Bonus_BaseAccuracy_Revolver`: WeaponAccuracySpreadMultiplier = 0.5
+- **OC_Revolver_LuckyBullets_C**（Clean）
+  - `OC_Bonus_ChainHitChance`: RicochetChance = 0.75
+  - `OC_Bonus_ChainHitWeakpointRule`: RicochetOnWeakspotOnly = 1.0
+  - `OC_Bonus_ChainHitOnlyPawns`: RicochetBehaviourPawnsOnly = 1.0
+- **OC_Revolver_MagicBullets_U**（Unstable）
+  - `OC_Bonus_Ricochet100_Revovler`: RicochetChance = 1.0
+  - `OC_Bonus_Ammo+8_Revovler`: None = 8.0
+  - `OC_Penalty_Damage20`: None = -20.0
+- **OC_Revolver_RandomDamageNew_C**（Balanced）
+  - `OC_Bonus_RandomDamage_Revovler`: None = None
+- **OC_Revolver_RoF_B**（Balanced）
+  - `OC_Bonus_DamageVsBurning_Revolver`: None = None
+  - `OC_Penalty_Damage_50p`: None = -10.0
+
+## SMG
+
+- **OC_SMG_Ammo_B**（Balanced）
+  - `Bonus_Ammo_SMG`: None = 180.0
+  - `Penalty_RoF2_SMG`: RateOfFire = -2.0
+  - `Penlaty_DMG-1_SMG`: None = -1.0
+- **OC_SMG_ConductorBullets_U**（Unstable）
+  - `Bonus_PlasmaBeam_SMG`: PlasmaBeam = 1.0
+  - `Penalty_Ammo-120_SMG`: None = -120.0
+  - `Penalty_RoF2_SMG`: RateOfFire = -2.0
+  - `Bonus_ElectrifyPlatform_SMG`: ElectrifyPlatforms = 1.0
+- **OC_SMG_RoF-new_C**（Clean）
+  - `Bonus_RoF2_SMG`: RateOfFire = 2.0
+  - `Bonus_ReloadTime02_SMG`: ReloadSpeed = -0.20000000298023224
+- **OC_SMG_RoF_U**（Balanced）
+  - `Bonus_RoF4_SMG`: RateOfFire = 4.0
+  - `Bonus_ElectricDamage_SMG`: None = None
+  - `Penalty_AccuracyBig`: WeaponAccuracySpreadMultiplier = 1.5
+- **OC_SMG_SpreadDampener**（Balanced）
+  - `Bonus_AccuracyPerfect`: WeaponAccuracySpreadMultiplier = 0.30000001192092896
+  - `Bonus_SpreadHalved`: MaxSpread = -2.0
+  - `Penalty_RecoilVerticalBig_SMG`: RecoilMultiplierV = 1.5
+  - `Penalty_RecoilMass`: RecoilMass = 1.5
+  - `Bonus_RecoilHorizontalNullified_SMG`: RecoilMultiplierH = 0.20000000298023224
+  - `Penalty_ClipSizeBig_SMG`: ClipSize = -10.0
+  - `Bonus_WeakpointBonus_SMG`: WeakpointDamageMultiplier = 0.30000001192092896
+- **OC_SMG_SuperSlim_C**（Clean）
+  - `Bonus_ClipSize5_SMG`: ClipSize = 5.0
+  - `Bonus_AccuracySmall_SMG`: WeaponAccuracySpreadMultiplier = 0.800000011920929
+- **OC_SMG_Turret-AoE-Discharge_U**（Unstable）
+  - `Bonus_EMPDischarge_SMG`: TurretEMPDischarge = 1.0
+  - `Penlaty_DMG-3_SMG`: None = -2.0
+  - `Penalty_ClipSize_SMG`: ClipSize = -5.0
+- **OC_SMG_Turret-Beam_U**（Unstable）
+  - `Bonus_PlasmaBeam_SMG`: PlasmaBeam = 1.0
+  - `Penalty_Ammo-120_SMG`: None = -120.0
+  - `Penalty_RoF2_SMG`: RateOfFire = -2.0
+
+## SawedOffShotgun
+
+- **OC_SawedOff_Accuracy_B**（Balanced）
+  - `OC_Bonus_HorizontalSpread_SawedOff`: MaxHorizontalSpread = -25.0
+  - `OC_Bonus_Spread_SawedOff`: WeaponAccuracySpreadMultiplier = 0.5
+  - `OC_Penalty_AmmoSmall_SawedOff`: None = -4.0
+- **OC_SawedOff_DMG_C**（Clean）
+  - `Bonus_NumPellets1_SawedOff`: None = 1.0
+  - `Bonus_Damage1_SawedOff`: None = 1.0
+- **OC_SawedOff_Damage_U**（Unstable）
+  - `OC_Bonus_Damage8_SawedOff`: None = 8.0
+  - `OC_Penalty_Ammo_SawedOff`: None = -10.0
+  - `OC_Penalty_ReloadSpeed_SawedOff`: ReloadSpeed = 0.5
+- **OC_SawedOff_DoubleBarrel_C**（Unstable）
+  - `OC_Bonus_BurstFire_SawedOff`: ClipSize = 0.5
+  - `OC_Bonus_Dmg-BlastWave_SawedOff`: RadialDamage = 5.5
+  - `OC_Penalty_Recoil_SawedOff`: RecoilMultiplier = 2.0
+  - `OC_Penalty_Spread_SawedOff`: WeaponAccuracySpreadMultiplier = 1.5
+  - `Bonus_NumPellets_2x_SawedOff`: None = 2.0
+  - `Pen_Ammo2x_SawefOff`: None = 0.5
+- **OC_SawedOff_MaxAmmo_C**（Clean）
+  - `Bonus_Ammo6_SawedOff`: None = 6.0
+  - `Bonus_Reload_SawefOff`: ReloadSpeed = -0.20000000298023224
+- **OC_SawedOff_ShotgunJump_C**（Clean）
+  - `OC_Bonus_ShotgunJump_SawedOff`: ShotgunJump = None
+
